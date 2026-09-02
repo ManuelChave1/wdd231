@@ -5,11 +5,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME PAGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <meta name="description" content="Course 231 home page">
+    <meta name="author" content="Manuel Chave">
+    <title>Course Home Page</title>
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <img src="images/site-logo.svg" alt="Site logo">
+                <span>Manuel Chave</span>
+                <button class="btn-hum" id="btn-humburger"></button>
+            </div>
+            <nav id="nav-bar" class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Chamber</a></li>
+                    <li><a href="#">Final</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <main>
+            <div class="main_content">
+                <h1>Home</h1>
+                <div class="personal_inf">
+                    <section class="about-me">
+                        <h2>About Me</h2>
+                        <p>I’m Manuel Chave, Mozambican, curious by nature and someone who loves spending good moments
+                            with my family and friends.
+
+                            I started learning programming simply because I wanted to know: “How do these websites and
+                            programs really work behind the scenes?”<br> <br>
+
+                            That’s how I entered this world, and honestly, I’m loving it! The more I learn, the more
+                            things I discover, and the more I want to keep exploring.
+
+                            I’m still building my path in programming, making mistakes, learning, struggling with bugs,
+                            and celebrating every little “Finally, it works!” moment</p>
+                    </section>
+                    <section>
+                        <h2>Student Photo</h2>
+                        <div class="student-photo">
+                            <img src="images/personal_photo.jpeg" alt="Personal Photo">
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <section class="course">
+                <h2>Web Certificate Courses</h2>
+                <div class="btn-course">
+                    <div class="btnCourse " id="all-courses">All courses</div>
+                    <div class="btnCourse" id="wdd-courses">WDD Courses</div>
+                    <div class="btnCourse" id="cse-courses">CSE Courses</div>
+                </div>
+                <p class="total-number-courses" id="total-number-courses"></p>
+                <div class="courses" id="courses">
+
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <div class="resources-link">
+                <a href="#"><img src="images/github.png" alt="GitHub"></a>
+                <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            </div>
+            <div class="year_lastModified">
+                <p id="currentYear" class="currentyear"></p>
+                <p id="lastModified" class="lastModified"></p>
+            </div>
+        </footer>
+
+    </div>
 </body>
 
 </html>
