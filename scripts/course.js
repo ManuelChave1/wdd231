@@ -9,7 +9,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -22,7 +22,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -34,7 +34,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -46,7 +46,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -60,7 +60,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -92,7 +92,14 @@ btnAll_courses.addEventListener("click", () => {
     courses.forEach(element => {
         let div = document.createElement("div")
         let title = document.createElement("p")
-        title.textContent = `${element.subject}  ${element.number}`
+        if (element.completed === true) {
+            title.textContent = ` ${checked} ${element.subject}  ${element.number}`
+            div.style.backgroundColor = "#C6AC8F";
+            div.style.color = "#0a0908"
+
+        } else {
+            title.textContent = `${element.subject}  ${element.number}`
+        }
         div.appendChild(title);
         course.appendChild(div);
         courseNumber += element.credits;
@@ -108,7 +115,14 @@ btnWdd_courses.addEventListener("click", () => {
         if (element.subject == "WDD") {
             let div = document.createElement("div")
             let title = document.createElement("p")
-            title.textContent = `${element.subject}  ${element.number}`
+            if (element.completed === true) {
+                title.textContent = ` ${checked} ${element.subject}  ${element.number}`
+                div.style.backgroundColor = "#C6AC8F";
+                div.style.color = "#0a0908"
+
+            } else {
+                title.textContent = `${element.subject}  ${element.number}`
+            }
             div.appendChild(title);
             course.appendChild(div);
             courseNumber += element.credits;
@@ -125,7 +139,14 @@ btnCse_courses.addEventListener("click", () => {
         if (element.subject == "CSE") {
             let div = document.createElement("div")
             let title = document.createElement("p")
-            title.textContent = `${element.subject}  ${element.number}`
+            if (element.completed === true) {
+                title.textContent = ` ${checked} ${element.subject}  ${element.number}`
+                div.style.backgroundColor = "#C6AC8F";
+                div.style.color = "#0a0908"
+
+            } else {
+                title.textContent = `${element.subject}  ${element.number}`
+            }
             div.appendChild(title);
             course.appendChild(div);
             courseNumber += element.credits;
