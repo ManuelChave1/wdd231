@@ -96,44 +96,10 @@ btnAll_courses.addEventListener("click", () => {
         div.appendChild(title);
         course.appendChild(div);
         courseNumber += element.credits;
-
-        //    creating modal for each element
-        div.addEventListener("click", () => {
-
-            modalContent.textContent = "";
-            modal.showModal()
-
-            let title = document.createElement("p");
-            let subject = document.createElement("h2");
-            let credits = document.createElement("p");
-            let certificate = document.createElement("p");
-            let courseDetails = document.createElement("p");
-            let courseTecnologies = document.createElement("p");
-
-            subject.textContent = `${element.subject} ${element.number}`
-            title.textContent = element.title
-            credits.textContent = `${element.credits} credits`
-            certificate.textContent = `Certificate: ${element.certificate}`
-            courseDetails.textContent = element.description;
-            courseTecnologies.textContent = element.technology
-
-
-            modalContent.appendChild(subject)
-            modalContent.appendChild(title)
-            modalContent.appendChild(credits)
-            modalContent.appendChild(certificate)
-            modalContent.appendChild(courseDetails)
-            modalContent.appendChild(courseTecnologies)
-            modal.appendChild(modalContent)
-
-
-        })
-
     });
     totalNumberCourses.textContent = `The total number of courses listed bellow is ${courseNumber}`;
 
 })
-
 
 btnWdd_courses.addEventListener("click", () => {
     let courseNumber = 0;
@@ -146,40 +112,7 @@ btnWdd_courses.addEventListener("click", () => {
             div.appendChild(title);
             course.appendChild(div);
             courseNumber += element.credits;
-            //    creating modal for each element
-            div.addEventListener("click", () => {
-
-                modalContent.textContent = "";
-                modal.showModal()
-
-                let title = document.createElement("p");
-                let subject = document.createElement("h2");
-                let credits = document.createElement("p");
-                let certificate = document.createElement("p");
-                let courseDetails = document.createElement("p");
-                let courseTecnologies = document.createElement("p");
-
-                subject.textContent = `${element.subject} ${element.number}`
-                title.textContent = element.title
-                credits.textContent = `${element.credits} credits`
-                certificate.textContent = `Certificate: ${element.certificate}`
-                courseDetails.textContent = element.description;
-                courseTecnologies.textContent = element.technology
-
-                modalContent.appendChild(subject)
-                modalContent.appendChild(title)
-                modalContent.appendChild(credits)
-                modalContent.appendChild(certificate)
-                modalContent.appendChild(courseDetails)
-                modalContent.appendChild(courseTecnologies)
-                modal.appendChild(modalContent)
-
-
-            })
         }
-
-
-
 
     });
     totalNumberCourses.textContent = `The total number of courses listed bellow is ${courseNumber}`
@@ -196,38 +129,6 @@ btnCse_courses.addEventListener("click", () => {
             div.appendChild(title);
             course.appendChild(div);
             courseNumber += element.credits;
-
-            //    creating modal for each element
-            div.addEventListener("click", () => {
-
-                modalContent.textContent = "";
-                modal.showModal()
-
-                let title = document.createElement("p");
-                let subject = document.createElement("h2");
-                let credits = document.createElement("p");
-                let certificate = document.createElement("p");
-                let courseDetails = document.createElement("p");
-                let courseTecnologies = document.createElement("p");
-
-                subject.textContent = `${element.subject} ${element.number}`
-                title.textContent = element.title
-                credits.textContent = `${element.credits} credits`
-                certificate.textContent = `Certificate: ${element.certificate}`
-                courseDetails.textContent = element.description;
-                courseTecnologies.textContent = element.technology
-
-
-                modalContent.appendChild(subject)
-                modalContent.appendChild(title)
-                modalContent.appendChild(credits)
-                modalContent.appendChild(certificate)
-                modalContent.appendChild(courseDetails)
-                modalContent.appendChild(courseTecnologies)
-                modal.appendChild(modalContent)
-
-
-            })
         }
 
     });
