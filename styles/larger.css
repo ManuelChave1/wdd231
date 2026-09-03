@@ -6,7 +6,81 @@
 
     .nav {
         display: flex;
+    }
+
+    .nav ul {
+        list-style: none;
+        display: flex;
         justify-content: center;
         place-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .nav ul a {
+        box-shadow: none;
+        margin: 10px;
+        border-radius: 8px;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    .header span {
+        font-size: 2rem;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    .personal_inf {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .personal_inf h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-me {
+        margin-bottom: 0px;
+    }
+
+    .course h2 {
+        font-size: 1.5rem;
+    }
+
+    .btn-course {
+        font-size: 1rem;
+    }
+
+    .btn-course button {
+        width: 150px;
+    }
+
+    .courses>div {
+        font-size: 1rem;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav ul a {
+        font-size: 1.2rem;
+    }
+
+    .personal_inf p {
+        font-size: 1.2rem;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
     }
 }

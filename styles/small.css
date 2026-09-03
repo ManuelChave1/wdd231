@@ -64,7 +64,7 @@ header {
     border: none;
     font-weight: 600;
     font-size: 1.5rem;
-    
+
 }
 
 .btn-hum {
@@ -157,7 +157,6 @@ main h1 {
 .student-photo img {
     width: 200px;
     height: 200px;
-    background-size: cover;
 }
 
 .course {
@@ -185,19 +184,20 @@ main h1 {
     font-size: .8rem;
 }
 
-.btnCourse {
+.btn-course button {
     padding: 10px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid var(--header-Color);
     background-color: var(--header-Color);
     color: #fff;
     margin: 20px;
     width: 70px;
     border-radius: 10px;
+    cursor: pointer;
     transition: ease-in-out .5s;
 }
 
-.btnCourse:hover {
+.btn-course button:hover {
     background-color: var(--hover-Color);
     color: var(--letter-Color);
     border: 1px solid pink;
