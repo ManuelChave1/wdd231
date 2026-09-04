@@ -18,9 +18,13 @@
 
     }
 
+    nav ul li {
+        width: 150px;
+        margin-left: 10px;
+    }
+
     .nav ul a {
         box-shadow: none;
-        margin-left: 10px;
         border-radius: 8px;
     }
 
