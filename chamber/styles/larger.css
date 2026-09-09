@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) {
+
+    .btn-humburguer {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header nav ul li {
+        background-color: transparent;
+    }
+
+    .header nav ul a {
+        color: #17202A;
+    }
+
+}
