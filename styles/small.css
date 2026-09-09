@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    grid-area: "header";
+    grid-area: header;
 }
 
 .header {
@@ -104,7 +104,7 @@ nav ul li a:hover {
 }
 
 main {
-    grid-area: "main";
+    grid-area: main;
     margin: 0 20px;
 }
 
@@ -252,7 +252,7 @@ main h1 {
 }
 
 footer {
-    grid-area: "footer";
+    grid-area: footer;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
     font-family: "Open sans", sans-serif;
     font-size: .9rem;
