@@ -23,7 +23,6 @@ body {
 
 header {
     grid-area: header;
-    border: 1px solid black;
     display: flex;
     padding: 10px;
     justify-content: space-between;
@@ -103,8 +102,52 @@ header nav ul a {
 
 main {
     grid-area: main;
+    padding: 20px;
+}
+
+.switch {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 20px;
+}
+
+.switch button {
+    padding: 10px;
+    background-color: #ccc;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.switch button:hover {
+    background-color: #e6a93a;
+}
+
+.companies {
+    margin-top: 20px;
+    box-shadow: 0px 0px 6px 2px #ccc;
+    border: 1px solid yellow;
 }
 
 footer {
     grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+    gap: 20px;
+    box-shadow: 0px 0px 6px 2px #ccc;
+    padding: 10px;
+}
+
+.companie-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.companie-media img {
+    cursor: pointer;
 }
