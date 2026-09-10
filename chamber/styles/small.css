@@ -105,6 +105,10 @@ main {
     padding: 20px;
 }
 
+main h1 {
+    font-size: 1.5rem;
+}
+
 .switch {
     display: flex;
     justify-content: center;
@@ -125,10 +129,64 @@ main {
     background-color: #e6a93a;
 }
 
+.btn-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.btn-grid-img {
+    grid-template-columns: 110px 1fr;
+}
+
+.btn-list {
+    grid-template-columns: 1fr;
+}
+
 .companies {
     margin-top: 20px;
     box-shadow: 0px 0px 6px 2px #ccc;
-    border: 1px solid yellow;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.companies section {
+    box-shadow: 0px 0px 6px 2px #ccc;
+    border-radius: 8px;
+
+}
+
+.companies section h2 {
+    text-align: center;
+    padding: 10px;
+    color: #13202A;
+    border-bottom: 1px solid #e6a93a;
+    font-size: 1.2rem;
+}
+
+.bussnessInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.companieImgDiv {
+    display: flex;
+    justify-content: flex-end;
+    place-items: center;
+    margin-right: 30px;
+}
+
+.companieImgDiv img {
+    width: 100px;
+}
+
+.companieContactInfo p {
+    margin: 10px;
+    font-size: .9rem;
 }
 
 footer {
@@ -137,8 +195,10 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 50px 1fr;
     gap: 20px;
+    background-color: #ccc;
     box-shadow: 0px 0px 6px 2px #ccc;
-    padding: 10px;
+    color: #13202A;
+    padding: 20px;
 }
 
 .companie-media {

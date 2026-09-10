@@ -1,9 +1,9 @@
 [
     {
-        "name": "MGC - Matola Gas Company (Office",
+        "name": "MGC - Matola Gas Company",
         "addresses": "Rua António Simbine No 260,Sommerschield, Maputo - Mozambique",
         "phone": "+25821486086",
-        "url": "https://www.mgc.co.mz/en/about-us/about-matola-gas-company/?utm_source=chatgpt.com",
+        "url": "https://www.mgc.co.mz/en/home/",
         "image": "https://static.mgc.co.mz/images/mgc_logo_171x50.webp",
         "membership_level": 1,
         "email": "admin@mgc.co.mz "
@@ -21,7 +21,7 @@
         "name": "PEPSA, LDA",
         "addresses": "Matola, Maputo",
         "phone": "+258821830364",
-        "url": "https://www.pepsalda.com/index_en.html?utm_source=chatgpt.com",
+        "url": "https://www.pepsalda.com/",
         "image": "https://www.pepsalda.com/images/pepsa-logo.jpg",
         "membership_level": 3,
         "email": "info@pepsa.co.mz"
@@ -30,7 +30,7 @@
         "name": "MultiSis, Lda",
         "addresses": "Avenida Dr. Alberto Nkuthumula n.º 293,Matola - Maputo",
         "phone": "858 275 005",
-        "url": "https://www.multisis-mz.com/?utm_source=chatgpt.com",
+        "url": "https://www.multisis-mz.com/",
         "image": "http://www.multisis-mz.com/wp-content/uploads/2022/09/Final_Logotipo_MultiSis-transparente-removebg-preview-300x99-removebg-preview.png",
         "membership_level": 2,
         "email": "suporte@multisis-mz.com"
@@ -40,7 +40,7 @@
         "addresses": "2HMC+RC7, Av. Filipe Samuel Magaia, Maputo, Mozambique",
         "phone": "+258844888222",
         "url": "https://www.asslda.com/",
-        "image": "https://www.asslda.com/wp-content/themes/ass-lda-security/images/logo.svg",
+        "image": "https://www.asslda.com/logo.svg",
         "membership_level": 1,
         "email": "info@asslda.com"
     },
@@ -49,7 +49,7 @@
         "addresses": "Maputo",
         "phone": "84 320 2779 ",
         "url": "https://www.petromoc.co.mz/",
-        "image": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "image": "https://www.petromoc.co.mz/wp-content/uploads/2024/08/Captura-de-tela-2024-08-29-093218.png",
         "membership_level": 2,
         "email": "cac@petromoc.co.mz"
     },
@@ -58,7 +58,7 @@
         "addresses": "Av. Namaacha, km 1.5, nr,8274,Maputo,Mozambique",
         "phone": "+258843262030",
         "url": "https://www.sgs.com/en-mz",
-        "image": "https://www.sgs.com/",
+        "image": "https://c.smartrecruiters.com/sr-company-logo-prod-aws-dc5/5d946e0d08c63e194f3a018e/huge?r=s3-eu-central-1&_1779764824919",
         "membership_level": 2,
         "email": "sgs.maputo@sgs.com"
     },

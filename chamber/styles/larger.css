@@ -1,21 +1,51 @@
 @media only screen and (min-width: 768px) {
 
+    .companie-logo span {
+        font-size: 1.5rem;
+    }
+
     .btn-humburguer {
         display: none;
     }
+
 
     .navigation {
         display: flex;
         flex-direction: row;
         box-shadow: none;
+        top: 0px;
+        right: 0px;
+        margin-top: 0px;
+    }
+
+    header nav ul {
+        flex-direction: row;
     }
 
     header nav ul li {
         background-color: transparent;
     }
 
-    .header nav ul a {
+    header nav ul a {
         color: #17202A;
+
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    .switch button {
+        width: 130px;
+    }
+
+
+
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: none;
+        justify-content: space-around;
+        align-items: center;
     }
 
 }
