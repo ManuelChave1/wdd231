@@ -14,9 +14,6 @@ btnGrid.addEventListener("click", () => {
     companies.innerHTML = ""
     companies.classList.remove("btn-list")
     companies.classList.add("btn-grid")
-    // document.querySelector(".bussnessInfo").classList.add("btn-grid-img")
-    // companies.classList.add("btn-grid-img")
-
     creatCards()
 })
 
