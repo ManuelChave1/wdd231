@@ -135,13 +135,8 @@ main h1 {
     background-color: #e6a93a;
 }
 
-.btn-grid {
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-}
 
-.btn-grid-img {
-    grid-template-columns: 110px 1fr;
-}
+
 
 .btn-list {
     grid-template-columns: 1fr;
@@ -188,6 +183,7 @@ main h1 {
 
 .companieImgDiv img {
     width: 60px;
+    height: auto;
 }
 
 .companieContactInfo p {

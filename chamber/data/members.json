@@ -4,7 +4,7 @@
         "addresses": "Rua António Simbine No 260,Sommerschield, Maputo - Mozambique",
         "phone": "+25821486086",
         "url": "https://www.mgc.co.mz/en/home/",
-        "image": "https://static.mgc.co.mz/images/mgc_logo_171x50.webp",
+        "image": "./images/mgc_logo.webp",
         "membership_level": 1,
         "email": "admin@mgc.co.mz "
     },
@@ -13,7 +13,7 @@
         "addresses": "venida Samora Machel, 1238, Matola, Maputo, Mozambique",
         "phone": "+25821782444",
         "url": "https://wipco.co.mz/index.html",
-        "image": "https://wipco.co.mz/images/logo.png",
+        "image": "./images/wipco-logo.webp",
         "membership_level": 2,
         "email": "wipco@intra.co.mz"
     },
@@ -22,7 +22,7 @@
         "addresses": "Matola, Maputo",
         "phone": "+258821830364",
         "url": "https://www.pepsalda.com/",
-        "image": "https://www.pepsalda.com/images/pepsa-logo.jpg",
+        "image": "./images/pepsa-logo.webp",
         "membership_level": 3,
         "email": "info@pepsa.co.mz"
     },
@@ -31,7 +31,7 @@
         "addresses": "Avenida Dr. Alberto Nkuthumula n.º 293,Matola - Maputo",
         "phone": "858 275 005",
         "url": "https://www.multisis-mz.com/",
-        "image": "https://www.multisis-mz.com/wp-content/uploads/2022/09/Final_Logotipo_MultiSis-transparente-removebg-preview-300x99-removebg-preview.png",
+        "image": "./images/multisis-logo.webp",
         "membership_level": 2,
         "email": "suporte@multisis-mz.com"
     },
@@ -40,7 +40,7 @@
         "addresses": "2HMC+RC7, Av. Filipe Samuel Magaia, Maputo, Mozambique",
         "phone": "+258844888222",
         "url": "https://www.asslda.com/",
-        "image": "https://www.asslda.com/logo.svg",
+        "image": "./images/asslda-logo.webp",
         "membership_level": 1,
         "email": "info@asslda.com"
     },
@@ -49,7 +49,7 @@
         "addresses": "Maputo",
         "phone": "84 320 2779 ",
         "url": "https://www.petromoc.co.mz/",
-        "image": "https://www.petromoc.co.mz/wp-content/uploads/2024/08/Captura-de-tela-2024-08-29-093218.png",
+        "image": "./images/petromoc-logo.webp",
         "membership_level": 2,
         "email": "cac@petromoc.co.mz"
     },
@@ -58,7 +58,7 @@
         "addresses": "Av. Namaacha, km 1.5, nr,8274,Maputo,Mozambique",
         "phone": "+258843262030",
         "url": "https://www.sgs.com/en-mz",
-        "image": "https://c.smartrecruiters.com/sr-company-logo-prod-aws-dc5/5d946e0d08c63e194f3a018e/huge?r=s3-eu-central-1&_1779764824919",
+        "image": "./images/sgs-logo.webp",
         "membership_level": 2,
         "email": "sgs.maputo@sgs.com"
     },
@@ -67,7 +67,7 @@
         "addresses": "Matola",
         "phone": "0861 TRITON (874866)",
         "url": "https://www.tritonexpress.co.za/",
-        "image": "https://www.tritonexpress.co.za/wp-content/uploads/retina-logo-1.png",
+        "image": "./images/triton-logo.webp",
         "membership_level": 3,
         "email": "info@tritonexpress.co.za"
     }
