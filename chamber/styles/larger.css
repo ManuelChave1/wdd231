@@ -80,7 +80,6 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
-
     footer {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: none;
