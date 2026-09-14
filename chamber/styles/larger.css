@@ -33,6 +33,16 @@
     .companieContactInfo p {
         font-size: .8rem;
     }
+
+    .active {
+
+        border-bottom: 1px solid #e6a93a;
+
+    }
+
+    .link-color {
+        color: #e6a93a;
+    }
 }
 
 @media only screen and (min-width: 768px) {
