@@ -255,13 +255,13 @@ main h1 {
 }
 
 .chamber-eventes-infor h2 {
-    font-family: "inter" sans-serif;
+    font-family: "inter",sans-serif;
     font-size: 1.2rem;
     color: #13202A;
 }
 
 .chamber-eventes-infor p {
-    font-family: "poppins" sans-serif;
+    font-family: "poppins", sans-serif;
     font-size: .9rem;
     color: #13202A;
 }
