@@ -82,8 +82,18 @@ header nav ul a {
     padding: 10px;
 }
 
+.active {
+
+    background-color: #e6a93a;
+
+}
+
+.link-color {
+    color: #fff;
+}
+
 header nav ul a:hover {
-    color: #e6a93a;
+    color: #13202A;
 }
 
 .btn-humburguer {
