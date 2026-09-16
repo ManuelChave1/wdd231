@@ -255,7 +255,7 @@ main h1 {
 }
 
 .chamber-eventes-infor h2 {
-    font-family: "inter",sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 1.2rem;
     color: #13202A;
 }
@@ -274,7 +274,7 @@ main h1 {
 
 .cards-events {
     display: grid;
-    grid-template-columns: repeat(1, minmax(250, 1fr));
+    grid-template-columns: 1fr;
     gap: 10px;
     border: 1px solid red;
     padding: 10px;
