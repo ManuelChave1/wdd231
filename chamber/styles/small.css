@@ -82,8 +82,18 @@ header nav ul a {
     padding: 10px;
 }
 
+.active {
+
+    background-color: #e6a93a;
+
+}
+
+.link-color {
+    color: #fff;
+}
+
 header nav ul a:hover {
-    color: #e6a93a;
+    color: #13202A;
 }
 
 .btn-humburguer {
@@ -245,13 +255,13 @@ main h1 {
 }
 
 .chamber-eventes-infor h2 {
-    font-family: "inter" sans-serif;
+    font-family: "inter",sans-serif;
     font-size: 1.2rem;
     color: #13202A;
 }
 
 .chamber-eventes-infor p {
-    font-family: "poppins" sans-serif;
+    font-family: "poppins", sans-serif;
     font-size: .9rem;
     color: #13202A;
 }
