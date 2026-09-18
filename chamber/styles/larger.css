@@ -14,6 +14,14 @@
     .companieImgDiv img {
         width: 80px;
     }
+
+    .banner h1 {
+        right: 35%;
+    }
+
+    .btn-join {
+        width: 100px;
+    }
 }
 
 @media only screen and (min-width: 635px) {
@@ -46,6 +54,19 @@
 
     header nav ul a:hover {
         color: #e6a93a;
+    }
+
+    .divWeatheDeateils {
+        /* justify-content: center; */
+        place-items: center;
+    }
+
+    .cards-events {
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
+
+    .companie-spotlights {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
 
