@@ -67,7 +67,7 @@ async function creatCards() {
     try {
         const response = await fetch("./data/members.json")
         const data = await response.json();
-        
+
         const randomCompanies = [...data]
             .sort(() => Math.random() - 0.5)
             .slice(0, 2);
@@ -85,11 +85,13 @@ async function creatCards() {
             let companieContactInfo = document.createElement("div");
             companieContactInfo.classList.add("companieContactInfo")
 
+            let memberLever = document.createElement("p")
+            memberLever.classList.add("memberlevel")
+
             let companieImageLogo = document.createElement("img");
             let companieImail = document.createElement("p");
             let companiePhoneNumber = document.createElement("p");
             let companieUrl = document.createElement("p");
-
 
             busnessName.textContent = element.name
             companieImageLogo.setAttribute("src", element.image)
@@ -98,6 +100,17 @@ async function creatCards() {
             companieImail.innerHTML = `<strong>Email: </strong> ${element.email}`
             companiePhoneNumber.innerHTML = `<strong>Phone: </strong> ${element.phone}`
             companieUrl.innerHTML = `<strong>Url: </strong> ${element.url}`
+
+
+            switch (element.membership_level) {
+                case 1:
+                    memberLever.innerHTML = `Membership level: Gold`
+                    break;
+
+                case 2:
+                    memberLever.innerHTML = `Membership level: Silver`
+                    break;
+            }
 
             companieImgDiv.appendChild(companieImageLogo)
             companieContactInfo.append(
@@ -113,6 +126,7 @@ async function creatCards() {
 
             card.appendChild(busnessName)
             card.appendChild(bussnessInfo)
+            card.appendChild(memberLever)
 
             companieSpotlight.appendChild(card)
         });

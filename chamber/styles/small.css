@@ -442,6 +442,14 @@ main h1 {
     font-size: 1rem;
 }
 
+.memberlevel {
+    padding: 10px;
+    text-align: center;
+    background-color: #16805B;
+    color: #fff;
+    font-size: .9rem;
+}
+
 footer {
     grid-area: footer;
     display: grid;
