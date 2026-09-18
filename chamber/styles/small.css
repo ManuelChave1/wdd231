@@ -59,7 +59,7 @@ header {
     top: 105px;
     right: 0px;
     box-shadow: 0px 0px 5px 4px #ccc;
-
+    z-index: 2;
 }
 
 header nav ul {
@@ -120,6 +120,7 @@ header nav ul a:hover {
     font-size: 2.5rem;
 }
 
+/* Directory main code */
 main {
     grid-area: main;
     padding: 0px 20px;
@@ -215,7 +216,6 @@ main h1 {
 .banner {
     height: 200px;
     position: relative;
-    border: 1px solid red;
 }
 
 .banner img {
@@ -244,9 +244,7 @@ main h1 {
     background-color: #d19526;
 }
 
-.events {
-    border: 1px solid orange;
-}
+
 
 .chamber-eventes-infor {
     padding-top: 10px;
@@ -255,7 +253,7 @@ main h1 {
 }
 
 .chamber-eventes-infor h2 {
-    font-family: "inter",sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 1.2rem;
     color: #13202A;
 }
@@ -269,21 +267,16 @@ main h1 {
 .events>img {
     display: inline-block;
     align-items: center;
-    border: 1px solid yellow;
 }
 
 .cards-events {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-    border: 1px solid red;
     padding: 10px;
-    border: 1px solid yellow;
 }
 
 .card-image {
-    object-fit: cover;
-    border: 1px solid palevioletred;
     height: 150px;
     position: relative;
     background-position: center;
@@ -291,7 +284,6 @@ main h1 {
 
 .card-image img {
     object-fit: cover;
-    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -360,8 +352,94 @@ main h1 {
 .card {
     display: grid;
     height: auto;
-    box-shadow: 0px 0px 5px 4px #000;
+    box-shadow: 0px 0px 6px 2px #ccc;
     flex: 1;
+}
+
+.weather-card {
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 6px 2px #ccc;
+
+}
+
+.weateher-title {
+    background-color: #16805B;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    justify-content: center;
+    place-items: center;
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.weateher-title h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+.weateher-title p {
+    font-size: .8rem;
+}
+
+
+
+.divWeatheDeateils {
+    display: flex;
+}
+
+.divWeatheUnitDeateils {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.divWeatheUnitDeateils img {
+    width: 78px;
+    height: 78px;
+    background-color: #49545e;
+    box-shadow: 0px 0px 6px 2px #ccc;
+}
+
+.divWeatheUnitDeateils p:first-of-type {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.divTempDetaeils {
+    text-align: center;
+    width: 150px;
+}
+
+.divTempDetaeils p {
+    margin-top: 10px;
+}
+
+
+.companie-spotlights {
+    margin: 20px 0px;
+    box-shadow: 0px 0px 6px 2px #ccc;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.companie-spotlights section {
+    box-shadow: 0px 0px 6px 2px #ccc;
+    border-radius: 8px;
+    display: grid;
+    flex: 1;
+}
+
+.companie-spotlights section h2 {
+    text-align: center;
+    padding: 10px;
+    color: #13202A;
+    border-bottom: 1px solid #e6a93a;
+    font-size: 1rem;
 }
 
 footer {
