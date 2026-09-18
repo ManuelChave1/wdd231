@@ -42,19 +42,9 @@
         font-size: .8rem;
     }
 
-    .active {
-        background-color: transparent;
-        border-bottom: 1px solid #e6a93a;
 
-    }
 
-    .link-color {
-        color: #e6a93a;
-    }
 
-    header nav ul a:hover {
-        color: #e6a93a;
-    }
 
     .divWeatheDeateils {
         /* justify-content: center; */
@@ -101,6 +91,20 @@
     header nav ul a {
         color: #17202A;
 
+    }
+
+    .active {
+        background-color: transparent;
+        border-bottom: 1px solid #e6a93a;
+
+    }
+
+    .link-color {
+        color: #e6a93a;
+    }
+
+    header nav ul a:hover {
+        color: #e6a93a;
     }
 
     main h1 {
