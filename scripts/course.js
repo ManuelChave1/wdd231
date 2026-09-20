@@ -83,6 +83,8 @@ let btnAll_courses = document.querySelector("#all-courses");
 let btnWdd_courses = document.querySelector("#wdd-courses");
 let btnCse_courses = document.querySelector("#cse-courses");
 let totalNumberCourses = document.querySelector("#total-number-courses");
+let myModal = document.querySelector("#my-modal");
+let closeModal = document.querySelector("#closeModal");
 let checked = "✓";
 
 
@@ -92,6 +94,7 @@ btnAll_courses.addEventListener("click", () => {
     courses.forEach(element => {
         let div = document.createElement("div")
         let title = document.createElement("p")
+
         if (element.completed === true) {
             title.textContent = ` ${checked} ${element.subject}  ${element.number}`
             div.style.backgroundColor = "#C6AC8F";
@@ -103,6 +106,17 @@ btnAll_courses.addEventListener("click", () => {
         div.appendChild(title);
         course.appendChild(div);
         courseNumber += element.credits;
+
+        //Creat Modal
+        div.addEventListener("click", (e) => {
+            if (e.target.tagName === "P") {
+
+                creatModal(element)
+            }
+        })
+
+
+
     });
     totalNumberCourses.textContent = `The total number of courses listed bellow is ${courseNumber}`;
 
@@ -126,7 +140,15 @@ btnWdd_courses.addEventListener("click", () => {
             div.appendChild(title);
             course.appendChild(div);
             courseNumber += element.credits;
+
+            div.addEventListener("click", (e) => {
+                if (e.target.tagName === "P") {
+
+                    creatModal(element)
+                }
+            })
         }
+
 
     });
     totalNumberCourses.textContent = `The total number of courses listed bellow is ${courseNumber}`
@@ -147,15 +169,65 @@ btnCse_courses.addEventListener("click", () => {
             } else {
                 title.textContent = `${element.subject}  ${element.number}`
             }
+
+
             div.appendChild(title);
             course.appendChild(div);
             courseNumber += element.credits;
+            div.addEventListener("click", (e) => {
+                if (e.target.tagName === "P") {
+
+                    creatModal(element)
+                }
+            })
         }
 
     });
     totalNumberCourses.textContent = `The total number of courses listed bellow is ${courseNumber}`
 })
 
+//function create modal
+let modalContent = document.createElement("div")
+modalContent.classList.add("modalContent")
+function creatModal(element) {
+    modalContent.innerText = "";
+    let modalSubject = document.createElement("h2");
+    let modalTitle = document.createElement("p")
+    let modalCredites = document.createElement("p")
+    let modalCertificate = document.createElement("p")
+    let modalDescription = document.createElement("p")
+    let modalTecnology = document.createElement("p")
+
+    modalSubject.textContent = `${element.subject} ${element.number}`
+    modalTitle.textContent = element.title
+    modalCredites.textContent = `${element.credits} Credits`
+    modalCertificate.textContent = `Certificate: ${element.certificate}`
+    modalDescription.textContent = element.description
+    modalTecnology.textContent = `Tecnology: ${element.technology}`
+
+
+    modalContent.append(
+        modalSubject,
+        modalTitle,
+        modalCredites,
+        modalCertificate,
+        modalDescription,
+        modalTecnology
+    )
+    myModal.appendChild(modalContent)
+    myModal.showModal()
+
+}
+
+closeModal.addEventListener("click", () => {
+    myModal.close()
+})
+
+myModal.addEventListener("click", (e) => {
+    if (e.target === myModal) {
+        myModal.close()
+    }
+})
 
 
 
