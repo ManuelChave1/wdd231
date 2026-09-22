@@ -51,79 +51,15 @@
             <button class="btn-humburguer" id="btn-humburguer" aria-label="humburguer button"></button>
         </header>
         <main>
-            <section class="joinPage" id="joinPage">
-                <h1>Membership Application</h1>
-                <p>Join our businesses community</p>
-
-                <form action="thankyou.html" method="get" id="joinForm" class="joinForm">
-                    <label for="firstName">First Name *<input type="text" name="first" required
-                            placeholder="type your first name" autocomplete="first-name"></label>
-                    <label for="lastName">Last Name *<input type="text" name="last" required
-                            placeholder="type your last name" autocomplete="last-name"></label>
-                    <label for="organizationTitle">Organization title *<input type="text" name="organizationTitle"
-                            required placeholder="type the organization title" autocomplete="organization-title"
-                            pattern="^[A-Za-z_]{7,30}$"></label>
-                    <label for="email">E-mail *<br><input type="email" name="email" required
-                            placeholder="john@gmial.com" autocomplete="email"></label>
-                    <label for="phone">Phone Number * <input type="tel" name="phoneNumber" required
-                            placeholder="type your phone number" autocomplete="+258 844400001"></label>
-                    <label for="organizationName">Organization Name *<input type="text" name="organizationName" required
-                            placeholder="type organization name" autocomplete="organization"></label>
-
-                    <label for="membershipLevel"> Membership Level
-                        <select name="membershipLevel" id="membershipLevel">
-                            <option value="#">Select a level of your choice</option>
-                            <option value="npMembership">NP</option>
-                            <option value="bronzeMembership">Bronze</option>
-                            <option value="silverMembership">Silver</option>
-                            <option value="goldMembership">Gold</option>
-                        </select></label>
-
-
-                    <label for="organization-description">Organization description
-                        <textarea name="organizationDescription" id="organization-description" cols="30"
-                            rows="10"></textarea>
-                    </label>
-
-                    <input type="submit" value="Submit" class="btnSubmint" id="btnSubmint">
-
-                </form>
-
-                <time class="timestamp" id="timestamp"></time>
-
-                <section class="membershipLevels">
-                    <h2>Membership Levels</h2>
-
-                    <div class="memberLevelCard np-member">
-                        <h2>NP Membership </h2>
-                        <p>Free</p>
-
-                        <p>Learn more --></p>
-                    </div>
-
-                    <div class="memberLevelCard bronze-membership ">
-                        <h2>Bronze Membership </h2>
-                        <p>120 Mts</p>
-
-                        <p>Learn more --></p>
-                    </div>
-
-                    <div class="memberLevelCard silver-membership">
-                        <h2>Silver Membership </h2>
-                        <p>200 Mts</p>
-
-                        <p>Learn more --></p>
-                    </div>
-
-                    <div class="memberLevelCard gold-membership">
-                        <h2>Gold Membership </h2>
-                        <p>250 Mts</p>
-
-                        <p>Learn more --></p>
-                    </div>
-                </section>
-
+            <section class="thankYou">
+                <img src="images/done-icon.gif" alt="gif on done icon">
+                <h1>Application Received</h1>
+                <p>Thank you for your applying</p>
+                <p>We have successfully Received your information </p>
             </section>
+            <div class="aplication-infor" id="aplication-infor">
+            </div>
+
         </main>
 
         <footer>
