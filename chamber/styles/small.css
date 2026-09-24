@@ -488,6 +488,19 @@ main h1 {
     margin-bottom: 10px;
 }
 
+.formLevel {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.formContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .joinForm label {
     display: block;
     margin-top: 30px;
@@ -591,9 +604,20 @@ main h1 {
     font-family: "Inter", sans-serif;
     margin-top: 10px;
 }
-.timestamp{
-    display: none;
+
+
+.divAplication {
+    margin: 20px 0px
 }
+
+.divAplication p {
+    margin: 10px;
+}
+
+.divAplication span {
+    margin-left: 10px;
+}
+
 footer {
     grid-area: footer;
     display: grid;
