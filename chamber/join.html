@@ -57,28 +57,30 @@
                 <div class="formLevel">
                     <div class="formContent">
                         <form action="thankyou.html" method="get" id="joinForm" class="joinForm">
-                            <label for="firstName">First Name *<br><input type="text" name="first" required
+                            <label for="firstName">First Name *<br><input type="text" name="first" id="firstName"
                                     placeholder="type your first name" autocomplete="given-name"
                                     title="given-name"></label>
 
-                            <label for="lastName">Last Name *<br><input type="text" name="last" required
+                            <label for="lastName">Last Name *<br><input type="text" name="last" id="lastName" required
                                     placeholder="type your last name" autocomplete="family-name"
                                     title="family-name"></label>
 
                             <label for="organizationTitle">Organization title *<br><input type="text"
-                                    name="organizationTitle" required placeholder="type the organization title"
-                                    autocomplete="organization-title" pattern="^[A-Za-z_]{7,30}$"
-                                    title="organization-title"></label>
+                                    name="organizationTitle" id="organizationTitle" required
+                                    placeholder="type the organization title" autocomplete="organization-title"
+                                    pattern="^[A-Za-z_]{7,30}$" title="organization-title"></label>
 
-                            <label for="email">E-mail *<br><input type="email" name="email" required
+                            <label for="email">E-mail *<br><input type="email" name="email" id="email" required
                                     placeholder="john@gmial.com" autocomplete="email" title="email"></label>
 
-                            <label for="phone">Phone Number * <br><input type="tel" name="phoneNumber" required
-                                    placeholder="type your phone number" autocomplete="tel" title="tel"></label>
+                            <label for="phone">Phone Number * <br><input type="tel" name="phoneNumber" id="phone"
+                                    required placeholder="type your phone number" autocomplete="tel"
+                                    title="tel"></label>
 
                             <label for="organizationName">Organization Name *<br><input type="text"
-                                    name="organizationName" required placeholder="type organization name"
-                                    autocomplete="organization" title="organization-name"></label>
+                                    name="organizationName" id="organizationName" required
+                                    placeholder="type organization name" autocomplete="organization"
+                                    title="organization-name"></label>
 
                             <label for="membershipLevel"> Membership Level <br>
                                 <select name="membershipLevel" id="membershipLevel">
