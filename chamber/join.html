@@ -58,24 +58,25 @@
                     <div class="formContent">
                         <form action="thankyou.html" method="get" id="joinForm" class="joinForm">
                             <label for="firstName">First Name *<br><input type="text" name="first" required
-                                    placeholder="type your first name" autocomplete="first-name"></label>
+                                    placeholder="type your first name" autocomplete="given-name"></label>
 
                             <label for="lastName">Last Name *<br><input type="text" name="last" required
-                                    placeholder="type your last name" autocomplete="last-name"></label>
+                                    placeholder="type your last name" autocomplete="family-name"></label>
 
                             <label for="organizationTitle">Organization title *<br><input type="text"
                                     name="organizationTitle" required placeholder="type the organization title"
-                                    autocomplete="organization-title" pattern="^[A-Za-z_]{7,30}$"></label>
+                                    autocomplete="organization-title" pattern="^[A-Za-z_]{7,30}$"
+                                    title="organization-title"></label>
 
                             <label for="email">E-mail *<br><input type="email" name="email" required
-                                    placeholder="john@gmial.com" autocomplete="email"></label>
+                                    placeholder="john@gmial.com" autocomplete="email" title="email"></label>
 
                             <label for="phone">Phone Number * <br><input type="tel" name="phoneNumber" required
-                                    placeholder="type your phone number" autocomplete="+258 844400001"></label>
+                                    placeholder="type your phone number" autocomplete="tel" title="tel"></label>
 
                             <label for="organizationName">Organization Name *<br><input type="text"
                                     name="organizationName" required placeholder="type organization name"
-                                    autocomplete="organization"></label>
+                                    autocomplete="organization" title="organization-name"></label>
 
                             <label for="membershipLevel"> Membership Level <br>
                                 <select name="membershipLevel" id="membershipLevel">
@@ -89,14 +90,13 @@
 
                             <label for="organization-description">Organization description <br>
                                 <textarea name="organizationDescription" id="organization-description" cols="30"
-                                    rows="10"></textarea>
+                                    rows="10" title="organization-description"></textarea>
                             </label>
-
+                            <input type="time" name="timestamp" id="timestamp" hidden>
                             <input type="submit" value="Submit" class="btnSubmint" id="btnSubmint">
 
                         </form>
 
-                        <time class="timestamp" id="timestamp"></time>
                     </div>
                     <div>
                         <section class="membershipLevels">
