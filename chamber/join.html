@@ -58,10 +58,12 @@
                     <div class="formContent">
                         <form action="thankyou.html" method="get" id="joinForm" class="joinForm">
                             <label for="firstName">First Name *<br><input type="text" name="first" required
-                                    placeholder="type your first name" autocomplete="given-name"></label>
+                                    placeholder="type your first name" autocomplete="given-name"
+                                    title="given-name"></label>
 
                             <label for="lastName">Last Name *<br><input type="text" name="last" required
-                                    placeholder="type your last name" autocomplete="family-name"></label>
+                                    placeholder="type your last name" autocomplete="family-name"
+                                    title="family-name"></label>
 
                             <label for="organizationTitle">Organization title *<br><input type="text"
                                     name="organizationTitle" required placeholder="type the organization title"
@@ -92,7 +94,7 @@
                                 <textarea name="organizationDescription" id="organization-description" cols="30"
                                     rows="10" title="organization-description"></textarea>
                             </label>
-                            <input type="time" name="timestamp" id="timestamp" hidden>
+                            <input type="hidden" name="timestamp" id="timestamp">
                             <input type="submit" value="Submit" class="btnSubmint" id="btnSubmint">
 
                         </form>
