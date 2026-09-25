@@ -16,6 +16,7 @@ if (aplicationInfor) {
     const phoneNumber = document.createElement("p")
     const description = document.createElement("p")
     const memberLevel = document.createElement("p")
+    const timeStam = document.createElement("p")
 
     fullName.innerHTML = `<strong>Name: </strong> ${params.get('first')} ${params.get('last')}`;
     email.innerHTML = `<strong>Email: </strong> ${params.get('email')}`
@@ -24,6 +25,7 @@ if (aplicationInfor) {
     organizationName.innerHTML = `<strong>Organization name: </strong>${params.get('organizationTitle')}`
     description.innerHTML = `<strong>Description:</strong> ${params.get('organizationDescription')} `
     memberLevel.innerHTML = `<strong>Member Level: </strong> ${params.get('membershipLevel')}`
+    timeStam.innerHTML = `<strong>Time: </strong> ${timeStamp}`
 
     divAplication.append(
         fullName,
@@ -32,9 +34,21 @@ if (aplicationInfor) {
         organizationTitle,
         organizationName,
         memberLevel,
-        description
+        description,
+        timeStam
     )
 
     aplicationInfor.appendChild(divAplication)
 }
 
+// to improve
+let currentTime = Date.now();
+
+timeStamp.textContent = new Date(currentTime.toLocaleString())
+
+
+const memberLevelCard = document.querySelector("#memberLevelCard")
+
+memberLevelCard.addEventListener("click",(e)=>{
+    if()
+})

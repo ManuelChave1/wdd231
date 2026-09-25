@@ -251,7 +251,12 @@ main h1 {
 
 }
 
-.btn-join:hover {
+.btn-join a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-join a :hover {
     background-color: #d19526;
 }
 
@@ -569,14 +574,8 @@ main h1 {
     font-size: 1.2rem;
 }
 
-.memberLevelCard p:nth-of-type(1) {
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #13202A;
-    margin-top: 10px;
-}
-
-.memberLevelCard p:nth-of-type(2) {
+.memberLevelCard a {
+    display: block;
     font-size: 1rem;
     color: #fff;
     width: 150px;
@@ -585,6 +584,8 @@ main h1 {
     padding: 4px;
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* Thank you configuration */
@@ -617,6 +618,23 @@ main h1 {
 .divAplication span {
     margin-left: 10px;
 }
+
+.returnHome {
+    background-color: #16805B;
+    text-align: center;
+    border: none;
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    left: 80%;
+    top: 15px;
+}
+
+.returnHome a {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 footer {
     grid-area: footer;

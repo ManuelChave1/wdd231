@@ -108,16 +108,16 @@
 
     .active {
         background-color: transparent;
-        border-bottom: 1px solid #e6a93a;
+        border-bottom: 1px solid #be8419;
 
     }
 
     .link-color {
-        color: #e6a93a;
+        color: #be8419;
     }
 
     header nav ul a:hover {
-        color: #e6a93a;
+        color: #be8419;
     }
 
     main h1 {
