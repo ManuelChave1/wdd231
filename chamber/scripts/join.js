@@ -1,5 +1,5 @@
 
-const timeStamp = document.querySelector("#timestamp")
+let timeStamp = document.querySelector("#timestamp")
 const joinForm = document.querySelector("#joinForm")
 const params = new URLSearchParams(window.location.search)
 
@@ -44,11 +44,4 @@ if (aplicationInfor) {
 // to improve
 let currentTime = Date.now();
 
-timeStamp.textContent = new Date(currentTime.toLocaleString())
-
-
-const memberLevelCard = document.querySelector("#memberLevelCard")
-
-memberLevelCard.addEventListener("click",(e)=>{
-    if()
-})
+timeStamp = new Date(currentTime).toLocaleString()
