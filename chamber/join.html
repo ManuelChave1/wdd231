@@ -96,7 +96,7 @@
                                 <textarea name="organizationDescription" id="organization-description" cols="30"
                                     rows="10" title="organization-description"></textarea>
                             </label>
-                            
+
                             <input type="hidden" name="timestamp" id="timestamp">
 
                             <input type="submit" value="Submit" class="btnSubmint" id="btnSubmint">
@@ -108,33 +108,41 @@
                         <section class="membershipLevels">
                             <h2>Membership Levels</h2>
 
-                            <div class="memberLevelCard np-member" id="memberLevelCard">
+                            <div class="memberLevelCard  np-member" id="np-member">
                                 <h2>NP Membership </h2>
 
-                                <a href="#">Learn more --></a>
+                                <p class="learnMore np-member">Learn more --></p>
                             </div>
 
-                            <div class="memberLevelCard bronze-membership ">
+                            <div class="memberLevelCard bronze-membership" id="bronze-membership">
                                 <h2>Bronze Membership </h2>
 
-                                <a href="#">Learn more --></a>
+                                <p class="learnMore bronze-membership">Learn more --></p>
                             </div>
 
                             <div class="memberLevelCard silver-membership">
                                 <h2>Silver Membership </h2>
 
-                                <a href="#">Learn more --></a>
+                                <p class="learnMore silver-membership">Learn more --></p>
                             </div>
 
                             <div class="memberLevelCard gold-membership">
                                 <h2>Gold Membership </h2>
 
-                                <a href="#">Learn more --></a>
+                                <p class="learnMore gold-membership">Learn more --></p>
                             </div>
+
                         </section>
                     </div>
                 </div>
             </section>
+            <dialog class="myModal" id="myModal">
+                <button class="close" id="close">Close</button>
+
+                <h2>Membership Benefits</h2>
+
+            </dialog>
+
         </main>
 
         <footer>
