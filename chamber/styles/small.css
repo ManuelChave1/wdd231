@@ -665,8 +665,7 @@ main h1 {
     margin: 20px 0px;
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
+    gap: 10px;
 }
 
 .discoverCard {
@@ -676,13 +675,8 @@ main h1 {
         "title"
         "divAddDesBtn"
     ;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0px;
     box-shadow: 0px 0px 6px 2px #ccc;
     border-radius: 5px;
-    width: 360px;
-
 }
 
 .figure {
