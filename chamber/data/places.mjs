@@ -43,7 +43,7 @@ export const places = [
     "name": "Parque Nacional da Gorongosa",
     "address": "Gorongosa, Sofala Province, Mozambique",
     "description": "One of Mozambique's important wildlife destinations, offering diverse landscapes and opportunities to observe wildlife.",
-    "photo": "images/gorongosa.webp",
+    "photo": "./images/parque_gorongosa.webp",
     "province": "Sofala Province",
     "activities": ["Safari", "Wildlife observation", "Birdwatching", "Photography"]
   },
@@ -59,7 +59,7 @@ export const places = [
     "name": "Gurué Tea Plantations",
     "address": "Gurué, Zambézia Province, Mozambique",
     "description": "A mountainous area surrounded by green landscapes and tea plantations, making it an attractive destination for nature lovers.",
-    "photo": "./images/gurue_plantação-de-cha.webp",
+    "photo": "./images/gurue_plantacao-de-cha.webp",
     "province": "Zambézia Province",
     "activities": ["Hiking", "Photography", "Nature walks", "Tea plantation visits"]
   }

@@ -73,6 +73,31 @@
     }
 }
 
+@media only screen and (min-width: 641px) {
+    .discoverCard {
+        grid-template-areas:
+            "figure title"
+            "figure divAddDesBtn"
+            "figure divAddDesBtn"
+        ;
+    }
+
+    .figure img {
+        border-radius: 0px;
+        padding: 10px;
+
+    }
+
+    .disCards {
+        grid-template-columns: repeat(2, minmax(360px, 1fr));
+    }
+
+    .discSection h1 {
+        font-size: 1.5rem;
+    }
+
+}
+
 @media only screen and (min-width: 768px) {
 
     .companie-logo span {
@@ -139,4 +164,25 @@
         align-items: center;
     }
 
+}
+
+@media only screen and (min-width: 1025px) {
+    .discoverCard {
+        grid-template-areas:
+            "figure"
+            "title"
+            "divAddDesBtn"
+        ;
+    }
+
+
+    .figure img {
+        border-radius: 5px 5px 0px 0px;
+        padding: none;
+
+    }
+
+    .disCards {
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
 }
