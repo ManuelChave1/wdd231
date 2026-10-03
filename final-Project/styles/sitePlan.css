@@ -35,12 +35,18 @@ main {
     padding: 10px;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
 h2 {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: #fff;
-    margin-top: 20px;
+    padding: 5px;
     background-color: #17324D;
 }
 
@@ -48,16 +54,43 @@ h3 {
     font-weight: bold;
     color: #17324D;
     font-size: 18px;
-    padding: 10px 0px;
+    padding: 10px;
 }
 
 main p {
     font-size: 16px;
     font-weight: 500;
+    padding: 10px 0px 0px 10px;
 }
 
 .scenarios p {
     padding: 10px;
+}
+
+.navy-blue {
+    background-color: #17324D;
+    color: #fff;
+    padding: 4px;
+}
+
+.blue {
+    background-color: #2563EB;
+    color: #fff;
+    padding: 4px;
+}
+
+.gray {
+    background-color: #F3F4F6;
+    color: #17324D;
+    padding: 4px;
+}
+
+.wireFrame {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .wireFrame p {
@@ -65,6 +98,11 @@ main p {
     font-weight: 600;
     text-align: center;
     margin: 10px 0px;
+}
+
+.wireFrame img {
+    width: 400px;
+    object-fit: cover;
 }
 
 footer {
@@ -77,10 +115,21 @@ footer p {
     margin-top: 10px;
 }
 
-@media only screen and(min-width:500px) {
-    .card {
-        display: grid;
+@media screen and (min-width: 500px) {
+    .cards {
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 5px 3px #ccc;
+    }
+
+    .card {
+        border-radius: 8px 8px 0px 0px;
+        box-shadow: 0px 0px 5px 3px #ccc;
+        padding-bottom: 10px;
+
+    }
+
+    h2 {
+        border-radius: 8px 8px 0px 0px;
     }
 }
