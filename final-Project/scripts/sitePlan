@@ -1,0 +1,6 @@
+let lastModified = document.querySelector(".lastModified")
+let currentyear = document.querySelector(".currentyear")
+
+let date = new Date();
+currentyear.textContent = `© ${date.getFullYear()} * Manuel Chave * Maputo-Mozambique`;
+lastModified.textContent = `LastModified ${date.toLocaleString("pt-BR")}`;
