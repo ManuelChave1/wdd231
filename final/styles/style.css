@@ -64,6 +64,13 @@ header>nav>ul>li:hover {
     background-color: #5184f1;
 }
 
+.navbar img {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    border: 2px solid orange;
+}
+
 .humburguer {
     border: none;
     position: relative;
