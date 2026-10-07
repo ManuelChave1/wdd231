@@ -7,6 +7,7 @@
     <meta name="description" content="Login Page">
     <meta name="author" content="Manuel Chave">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <link rel="shortcut icon" href="images/studytrack.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,9 +27,9 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="#"><img src="images/home.webp" alt="Home icon">Home</a></li>
-                    <li><a href="#"><img src="images/books.webp" alt="Subjects icon">Subjects</a></li>
-                    <li><a href="#"><img src="images/time-span.webp" alt="Tasks">Tasks</a></li>
+                    <li><a href="#"><img src="images/home.svg" alt="Home icon">Home</a></li>
+                    <li><a href="#"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
+                    <li><a href="#"><img src="images/time-span.svg" alt="Tasks">Tasks</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,42 +57,44 @@
 
                 </section>
                 <section>
-                    <div>
-                        <h2>Progress per Subjects</h2>
-                        <div>
-                            <article>
-                                <p>Subject Title <span>90%</span></p>
-                                <p>Progres bar1</p>
-                            </article>
-                            <article>
-                                <p>Subject Title <span>50%</span></p>
-                                <p>Progres bar2</p>
-                            </article>
-                            <article>
-                                <p>Subject Title <span>70%</span></p>
-                                <p>Progres bar3</p>
-                            </article>
+                    <div class="progressTasksCard">
+                        <div class="progressInformation">
+                            <h2>Progress per Subjects</h2>
+                            <div class="subjectsInfor">
+                                <article>
+                                    <p>Subject Title <span>90%</span></p>
+                                    <p>Progres bar1</p>
+                                </article>
+                                <article>
+                                    <p>Subject Title <span>50%</span></p>
+                                    <p>Progres bar2</p>
+                                </article>
+                                <article>
+                                    <p>Subject Title <span>70%</span></p>
+                                    <p>Progres bar3</p>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="tasks">
+                            <h2>Next Tasks</h2>
+                            <div class="subjectsInfor">
+                                <article>
+                                    <p>Subject Title</p>
+                                    <p>day to start</p>
+                                </article>
+                                <article>
+                                    <p>Subject Title 2</p>
+                                    <p>day to start </p>
+                                </article>
+                                <article>
+                                    <p>Subject Title 3</p>
+                                    <p>Day to start</p>
+                                </article>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h2>Next Tasks</h2>
-                        <div>
-                            <article>
-                                <p>Subject Title</p>
-                                <p>day to start</p>
-                            </article>
-                            <article>
-                                <p>Subject Title 2</p>
-                                <p>day to start </p>
-                            </article>
-                            <article>
-                                <p>Subject Title 3</p>
-                                <p>Day to start</p>
-                            </article>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="#" alt="Bulb icon">
+                    <div class="tips">
+                        <img src="images/light-icon.png" alt="Bulb icon">
                         <div>
                             <h2>Day insights</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel, ea facere iure,

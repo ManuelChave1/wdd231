@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "title": "Use the Pomodoro Technique",
+        "tip": "Study for 25 minutes and take a 5-minute break. After four sessions, take a longer break.",
+        "category": "Productivity"
+    },
+    {
+        "id": 2,
+        "title": "Set a Goal",
+        "tip": "Before you start studying, define exactly what you want to learn or accomplish.",
+        "category": "Organization"
+    },
+    {
+        "id": 3,
+        "title": "Avoid Distractions",
+        "tip": "Put your phone on silent or keep it away from your study area.",
+        "category": "Focus"
+    },
+    {
+        "id": 4,
+        "title": "Create a Study Schedule",
+        "tip": "Set specific times during the day for studying and try to follow your schedule consistently.",
+        "category": "Organization"
+    },
+    {
+        "id": 5,
+        "title": "Study a Little Every Day",
+        "tip": "Short and regular study sessions can be more effective than studying for many hours once a week.",
+        "category": "Habits"
+    },
+    {
+        "id": 6,
+        "title": "Take Breaks",
+        "tip": "Take short breaks while studying to rest your mind and regain concentration.",
+        "category": "Focus"
+    },
+    {
+        "id": 7,
+        "title": "Explain What You Learned",
+        "tip": "Try to explain the topic in your own words as if you were teaching it to someone else.",
+        "category": "Learning"
+    },
+    {
+        "id": 8,
+        "title": "Ask Questions",
+        "tip": "When studying a topic, ask yourself what, why, how, and when.",
+        "category": "Learning"
+    },
+    {
+        "id": 9,
+        "title": "Use Flashcards",
+        "tip": "Create cards with questions on one side and answers on the other to review important concepts.",
+        "category": "Memory"
+    },
+    {
+        "id": 10,
+        "title": "Review Regularly",
+        "tip": "Review old material regularly to help prevent yourself from forgetting it.",
+        "category": "Memory"
+    },
+    {
+        "id": 11,
+        "title": "Start With Important Tasks",
+        "tip": "Identify your most important tasks and try to complete them when your concentration is highest.",
+        "category": "Productivity"
+    },
+    {
+        "id": 12,
+        "title": "Break Large Tasks Into Smaller Ones",
+        "tip": "Divide a large task into smaller steps that are easier to start and complete.",
+        "category": "Organization"
+    },
+    {
+        "id": 13,
+        "title": "Use a Task List",
+        "tip": "Write down the tasks you need to complete instead of relying only on your memory.",
+        "category": "Organization"
+    },
+    {
+        "id": 14,
+        "title": "Keep Your Study Space Organized",
+        "tip": "An organized study space can help reduce distractions and make it easier to concentrate.",
+        "category": "Focus"
+    },
+    {
+        "id": 15,
+        "title": "Set Realistic Goals",
+        "tip": "Set goals that are challenging but achievable within the time you have available.",
+        "category": "Motivation"
+    },
+    {
+        "id": 16,
+        "title": "Track Your Progress",
+        "tip": "Record what you have completed so you can see your progress and stay motivated.",
+        "category": "Motivation"
+    },
+    {
+        "id": 17,
+        "title": "Do Not Wait for Motivation",
+        "tip": "Start with just a few minutes. Sometimes motivation comes after you begin.",
+        "category": "Motivation"
+    },
+    {
+        "id": 18,
+        "title": "Use Practical Examples",
+        "tip": "Connect theoretical concepts with real-world examples to make them easier to understand.",
+        "category": "Learning"
+    },
+    {
+        "id": 19,
+        "title": "Practice What You Learn",
+        "tip": "After learning a concept, try to apply it through exercises or small projects.",
+        "category": "Practice"
+    },
+    {
+        "id": 20,
+        "title": "Learn From Your Mistakes",
+        "tip": "Do not be afraid of making mistakes. Analyze them to understand what you need to improve.",
+        "category": "Learning"
+    },
+    {
+        "id": 21,
+        "title": "Get Enough Sleep",
+        "tip": "A good night's sleep can improve your concentration, memory, and ability to learn.",
+        "category": "Well-being"
+    },
+    {
+        "id": 22,
+        "title": "Stay Hydrated",
+        "tip": "Drink enough water throughout the day to help maintain your energy and concentration.",
+        "category": "Well-being"
+    },
+    {
+        "id": 23,
+        "title": "Exercise Regularly",
+        "tip": "Include physical activity in your routine. Exercise can support your well-being and concentration.",
+        "category": "Well-being"
+    },
+    {
+        "id": 24,
+        "title": "Do Not Study While Hungry",
+        "tip": "Eat balanced meals and maintain a healthy eating routine during intensive study periods.",
+        "category": "Well-being"
+    },
+    {
+        "id": 25,
+        "title": "Change Your Study Method",
+        "tip": "If one method is not working, try videos, exercises, mind maps, or practical explanations.",
+        "category": "Learning"
+    },
+    {
+        "id": 26,
+        "title": "Create Mind Maps",
+        "tip": "Organize ideas visually to better understand the relationships between different concepts.",
+        "category": "Learning"
+    },
+    {
+        "id": 27,
+        "title": "Write Summaries",
+        "tip": "After studying, write a short summary using your own words.",
+        "category": "Memory"
+    },
+    {
+        "id": 28,
+        "title": "Test Yourself",
+        "tip": "Answer questions or complete exercises without looking at the answers to check what you really learned.",
+        "category": "Practice"
+    },
+    {
+        "id": 29,
+        "title": "Use Spaced Repetition",
+        "tip": "Review the same material on different days while gradually increasing the time between reviews.",
+        "category": "Memory"
+    },
+    {
+        "id": 30,
+        "title": "Study in a Quiet Environment",
+        "tip": "Choose a place where you can study with few interruptions and distractions.",
+        "category": "Focus"
+    },
+    {
+        "id": 31,
+        "title": "Turn Off Notifications",
+        "tip": "Disable notifications from social media and other apps that could interrupt your study session.",
+        "category": "Focus"
+    },
+    {
+        "id": 32,
+        "title": "Set a Deadline",
+        "tip": "Set a deadline for each task to avoid procrastination and maintain progress.",
+        "category": "Organization"
+    },
+    {
+        "id": 33,
+        "title": "Start Small",
+        "tip": "If you are having trouble starting, commit to studying for just five minutes.",
+        "category": "Motivation"
+    },
+    {
+        "id": 34,
+        "title": "Celebrate Small Achievements",
+        "tip": "Recognize every completed task. Small achievements can help you stay motivated.",
+        "category": "Motivation"
+    },
+    {
+        "id": 35,
+        "title": "Avoid Multitasking",
+        "tip": "Focus on one task at a time to avoid wasting time switching between different activities.",
+        "category": "Focus"
+    },
+    {
+        "id": 36,
+        "title": "Do a Weekly Review",
+        "tip": "At the end of each week, review what you studied, what you completed, and what you need to improve.",
+        "category": "Organization"
+    },
+    {
+        "id": 37,
+        "title": "Identify Your Difficulties",
+        "tip": "Write down the topics you find difficult and spend more time working on them.",
+        "category": "Learning"
+    },
+    {
+        "id": 38,
+        "title": "Ask for Help",
+        "tip": "When you do not understand something, ask a teacher, classmate, or use a reliable learning resource.",
+        "category": "Learning"
+    },
+    {
+        "id": 39,
+        "title": "Teach Someone Else",
+        "tip": "Teaching a concept to another person can help you discover whether you truly understand it.",
+        "category": "Learning"
+    },
+    {
+        "id": 40,
+        "title": "Prepare Your Materials First",
+        "tip": "Prepare your books, computer, notebooks, and other materials before starting your study session.",
+        "category": "Organization"
+    },
+    {
+        "id": 41,
+        "title": "Set Priorities",
+        "tip": "Prioritize tasks with the closest deadlines or the greatest importance.",
+        "category": "Productivity"
+    },
+    {
+        "id": 42,
+        "title": "Track Your Study Time",
+        "tip": "Record how much time you spend studying to understand your habits and improve your routine.",
+        "category": "Productivity"
+    },
+    {
+        "id": 43,
+        "title": "Do the Difficult Task First",
+        "tip": "When your energy is high, use that time to work on tasks that require more concentration.",
+        "category": "Productivity"
+    },
+    {
+        "id": 44,
+        "title": "Avoid Procrastination",
+        "tip": "When you notice yourself delaying a task, choose one small part of it and start immediately.",
+        "category": "Productivity"
+    },
+    {
+        "id": 45,
+        "title": "Learn Actively",
+        "tip": "Instead of only reading, write, answer questions, practice, and explain the material.",
+        "category": "Learning"
+    },
+    {
+        "id": 46,
+        "title": "Stay Consistent",
+        "tip": "It is better to study regularly for a short time than to study for many hours only occasionally.",
+        "category": "Habits"
+    },
+    {
+        "id": 47,
+        "title": "Review Before an Exam",
+        "tip": "Review your material in advance instead of trying to learn everything the night before an exam.",
+        "category": "Preparation"
+    },
+    {
+        "id": 48,
+        "title": "Learn Through Projects",
+        "tip": "Create small projects to turn theoretical knowledge into practical skills.",
+        "category": "Practice"
+    },
+    {
+        "id": 49,
+        "title": "Analyze Your Week",
+        "tip": "Ask yourself what worked, what did not work, and what you can do differently next week.",
+        "category": "Improvement"
+    },
+    {
+        "id": 50,
+        "title": "Do Not Give Up",
+        "tip": "Learning takes time. Keep practicing even when your progress seems slow.",
+        "category": "Motivation"
+    }
+]
