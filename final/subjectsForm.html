@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login Page">
+    <meta name="author" content="Manuel Chave">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="shortcut icon" href="images/studytrack.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>StudyTrack- subjects Form</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            <div><img src="images/studytrack.webp" alt="Site logo "> <span>StudyTrack</span>
+                <button class="humburguer" id="humburguer"></button>
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="#"><img src="images/home.svg" alt="Home icon">Home</a></li>
+                    <li><a href="#"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
+                    <li><a href="#"><img src="images/time-span.svg" alt="Tasks">Tasks</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="mainConteinar">
+                <h2>Add New Subject</h2>
+                <form action="#" method="get" class="form">
+                    <label for="subjectName">Subject Name: </label><br>
+                    <input type="text" name="subjectName" title="subject-name" placeholder="Ex: WDD231" required><br>
+                    <label for="taskTitle">Task Title: </label><br>
+                    <input type="text" name="taskTitle" title="task-title" placeholder="Ex: Finish Final Project"
+                        required> <br>
+                    <label for="dueDate">Due Date: </label> <br>
+                    <input type="date" name="dueDate" title="due-date" required> <br>
+                    <label for="taskDescription">Task Description: </label> <br>
+                    <textarea name="taskDescription" id="taskDescription" cols="30" rows="10"></textarea> <br>
+              
+                        <input type="checkbox" name="markDone" id="markDone">
+                        <label for="markDone">Mark as Done</label>
+                    
+                    <div class="btns">
+                        <input type="button" value="Cancel">
+                        <input type="submit" value="Save">
+                    </div>
+                </form>
+            </div>
+    </div>
+    </main>
+    </div>
+</body>
+
+</html>

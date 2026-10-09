@@ -12,11 +12,7 @@
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 
-    .progressTasksCard {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
+
 
     .progressInformation h2,
     .tasks h2 {
@@ -60,4 +56,13 @@
         align-items: center;
         gap: 20px
     }
+}
+
+@media only screen and (min-width: 750px) {
+    .progressTasksCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
 }

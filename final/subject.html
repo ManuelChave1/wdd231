@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login Page">
+    <meta name="author" content="Manuel Chave">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="shortcut icon" href="images/studytrack.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>StudyTrack- Home</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            <div><img src="images/studytrack.webp" alt="Site logo "> <span>StudyTrack</span>
+                <button class="humburguer" id="humburguer"></button>
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="#"><img src="images/home.svg" alt="Home icon">Home</a></li>
+                    <li><a href="#"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
+                    <li><a href="#"><img src="images/time-span.svg" alt="Tasks">Tasks</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="mainContent">
+                <div class="mySubjects">
+                    <h2>My Subjects</h2>
+                    <button class="addSubject"> <a href="subjectsForm.html">Add Subjects</a></button>
+                </div>
+                <input type="search" name="search" placeholder="searh your subjects" title="search-bar">
+                <div class="subjectInfor">
+                    <div class="subjectInforTitle">
+                        <p>Name</p>
+                        <p>Progress</p>
+                        <p>Actions</p>
+                    </div>
+                    <div class="subjectsContentInfo"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
