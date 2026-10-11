@@ -8,6 +8,7 @@
     <meta name="author" content="Manuel Chave">
     <link rel="stylesheet" href="styles/login.css">
     <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/login.js" defer></script>
     <link rel="shortcut icon" href="images/studytrack.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +41,7 @@
                     <div class="login">
                         <h1>Creat Account</h1>
                         <p>Fill the form with your information to start</p>
-                        <form action="#" method="get" class="form">
+                        <form action="#" method="get" class="form" id="registerForm">
                             <label for="full-name">FullName</label><br>
                             <input type="text" required placeholder="Ex: Joseph Smith" title="full-name"
                                 name="full-name"><br>
@@ -48,12 +49,21 @@
                             <input type="email" required placeholder="E-mail" title="E-mail" name="email"> <br>
                             <label for="password">Password</label><br>
                             <input type="password" required placeholder="Password" title="Password" name="password"><br>
-                            <input type="submit" value="Register">
+                            <input type="submit" value="Register" id="btnSubmit">
                         </form>
-                        <p class="haveAccount">Have an account? <span><a href="login.html">Enter</a></span></p>
+                        <p class="haveAccount"> Have an account? <span><a href="login.html">Enter</a></span></p>
                     </div>
                 </div>
+                <dialog class="myModal" id="myModal">
+                    <div class="universityLogo">
+                        <img src="images/studytrack.webp" alt="university logo">
+                        <h2>StudyTrack</h2>
+                        <p> Thanks for your registration</p>
+                    </div>
+                    <button type="button" id="btnGoLogin"><a href="login.html">Go to Login</a></button>
+                </dialog>
             </div>
+
         </main>
     </div>
 </body>
