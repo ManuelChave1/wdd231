@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Login Page">
     <meta name="author" content="Manuel Chave">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <link rel="shortcut icon" href="images/studytrack.ico" type="image/x-icon">
@@ -27,27 +27,44 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="#"><img src="images/home.svg" alt="Home icon">Home</a></li>
-                    <li><a href="#"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
+                    <li><a href="index.html"><img src="images/home.svg" alt="Home icon">Home</a></li>
+                    <li><a href="subject.html"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
                     <li><a href="#"><img src="images/time-span.svg" alt="Tasks">Tasks</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section class="mainContent">
-                <div class="mySubjects">
-                    <h2>My Subjects</h2>
-                    <button class="addSubject"> <a href="subjectsForm.html">Add Subjects</a></button>
-                </div>
-                <input type="search" name="search" placeholder="searh your subjects" title="search-bar">
-                <div class="subjectInfor">
-                    <div class="subjectInforTitle">
-                        <p>Name</p>
-                        <p>Progress</p>
-                        <p>Actions</p>
+        <main class="main-content">
+            <section class="subjects-page" aria-labelledby="subjectsTitle">
+                <div class="page-heading">
+                    <div>
+                        <h1 id="subjectsTitle">My Subjects</h1>
+                        <p>Organize your subjects and track your learning progress.</p>
                     </div>
-                    <div class="subjectsContentInfo"></div>
+
+                    <a href="subjectsForm.html" class="add-subject">
+                        + Add Subject
+                    </a>
                 </div>
+
+                <div class="subject-search">
+                    <label for="subjectSearch">Search your subjects</label>
+                    <input type="search" id="subjectSearch" name="search" placeholder="Enter a subject name..."
+                        autocomplete="off">
+                </div>
+
+                <section class="subject-list" aria-label="Saved subjects">
+                    <div class="subject-list-header">
+                        <span>Subject Name</span>
+                        <span>Progress</span>
+                        <span>Actions</span>
+                    </div>
+
+                    <div id="subjectsContentInfo" class="subjects-content-info">
+                        <p id="subjectsMessage" role="status">
+                            Loading your subjects...
+                        </p>
+                    </div>
+                </section>
             </section>
         </main>
     </div>
