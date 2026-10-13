@@ -90,21 +90,21 @@ header>nav>ul>li:hover {
     color: #1f2937;
 }
 
-.mainContent {
+.main-content {
     margin: 10px;
 }
 
-.mainContent h1 {
+.main-content h1 {
     font-size: 1.7rem;
     color: #1f2937;
     margin-bottom: 10px;
 }
 
-.mainContent>p {
-    margin: 10px 0px;
+.dash-intro {
+    margin-bottom: 10px;
 }
 
-.progressCard {
+.progress-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;

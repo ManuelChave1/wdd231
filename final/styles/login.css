@@ -89,9 +89,10 @@ body {
 
 .rememberPassword {
     display: flex;
+    font-size: 16px;
     justify-content: space-between;
-    place-content: center;
-    margin-top: 10px;
+    text-align: center;
+    margin: 10px 0px;
 }
 
 .rememberPassword a {

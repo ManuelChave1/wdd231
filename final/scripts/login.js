@@ -1,43 +1,26 @@
 const params = new URLSearchParams(window.location.search)
 let registerForm = document.querySelector("#registerForm")
-let formLogin = document.querySelector("#LoginForm")
-let loginFormSubmit = document.querySelector("#loginSubmit")
 let btnsubmit = document.querySelector("#btnSubmit")
+let btnGoLogin = document.querySelector("#btnGoLogin")
 let myModal = document.querySelector("#myModal")
-let LoginModal = document.querySelector("#myModalLogin")
-
 
 let listOfAccounts = JSON.parse(localStorage.getItem("users")) || []
-
 if (registerForm) {
-    const fullName = params.get("full-name")?.trim();
-    const email = params.get("email")?.trim().toLowerCase();
-    const password = params.get("password");
-
-    if (!fullName || !email || !password) {
-        alert("Please fill in all the fields!");
-    } else if (password.length < 8) {
-        alert("Password must contain at least 8 characters!");
+    if (params.get("full-name") === "" && params.get("email") === "" && params.get("password")) {
+        return
     } else {
-        const accountExists = listOfAccounts.some(
-            account => account.email?.toLowerCase() === email
-        );
+        listOfAccounts.push({
+            fullname: params.get("full-name"),
+            email: params.get("email"),
+            password: params.get("password")
 
-        if (accountExists) {
-            alert("An account with this email already exists!");
-        } else {
-            listOfAccounts.push({
-                fullName: fullName,
-                email: email,
-                password: password,
-            });
-
-
-            myModal.showModal()
-
-        }
+        })
     }
+    localStorage.setItem("users", JSON.stringify(listOfAccounts))
+    myModal.show();
+
 }
+
 
 if (formLogin) {
 

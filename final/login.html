@@ -39,16 +39,31 @@
                     <div class="login">
                         <h1>Welcome</h1>
                         <p>Login to continue your jorney</p>
-                        <form action="#" method="get" class="form" id="LoginForm">
-                            <input type="email" required placeholder="E-mail" title="E-mail" name="email"><br>
-                            <input type="password" required placeholder="Password" title="Password" name="password"><br>
+                        >
+
+                        <form action="#" method="post" class="form" id="LoginForm">
+                            <label for="loginEmail">Email</label><br>
+                            <input type="email" id="loginEmail" name="email" placeholder="Email" autocomplete="email"
+                                required> <br>
+
+                            <label for="loginPassword">Password</label><br>
+                            <input type="password" id="loginPassword" name="password" placeholder="Password"
+                                autocomplete="current-password" required> <br>
+
+
                             <div class="rememberPassword">
-                                <label for="checkbox"> <input type="checkbox" name="checkbox"
-                                        id="checkBox">Remember</label>
-                                <p class="forgotePassword"><a href="#">Forgotted Password?</a></p>
+                                <label for="checkBox">
+                                    <input type="checkbox" name="remember" id="checkBox">
+                                    Remember me
+                                </label>
+
+                                <a href="#">Forgot password?</a>
                             </div>
-                            <input type="submit" value="Enter" id="loginSubmit">
+
+                            <input type="submit" value="Login" id="loginSubmit">
+                            >>>>>>> 921c8e2386dec21b85c3b9d6e7041345c0d48ab2
                         </form>
+
                         <p class="doNotHaveAccount">Do not have account? <span><a
                                     href="register.html">Register</a></span>
                         </p>
