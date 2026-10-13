@@ -39,7 +39,7 @@
                     <div class="login">
                         <h1>Welcome</h1>
                         <p>Login to continue your jorney</p>
-                        <form action="#" method="get" class="form">
+                        <form action="#" method="get" class="form" id="LoginForm">
                             <input type="email" required placeholder="E-mail" title="E-mail" name="email"><br>
                             <input type="password" required placeholder="Password" title="Password" name="password"><br>
                             <div class="rememberPassword">
@@ -47,7 +47,7 @@
                                         id="checkBox">Remember</label>
                                 <p class="forgotePassword"><a href="#">Forgotted Password?</a></p>
                             </div>
-                            <input type="submit" value="Enter">
+                            <input type="submit" value="Enter" id="loginSubmit">
                         </form>
                         <p class="doNotHaveAccount">Do not have account? <span><a
                                     href="register.html">Register</a></span>
@@ -56,6 +56,14 @@
                 </div>
             </div>
         </main>
+        <dialog class="myModal" id="myModalLogin">
+            <div class="universityLogo">
+                <img src="images/studytrack.webp" alt="university logo">
+                <h2>StudyTrack</h2>
+                <p> Please regisiter to start</p>
+            </div>
+            <button type="button" id="btnGoRegister"><a href="register.html">Register</a></button>
+        </dialog>
     </div>
 </body>
 
