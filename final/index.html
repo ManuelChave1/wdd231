@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dash.js" defer></script>
+    <script src="scripts/tips.js" defer></script>
     <link rel="shortcut icon" href="images/studytrack.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,8 +30,8 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a href="index.html"><img src="images/home.svg" alt="Home icon">Home</a></li>
-                    <li><a href="subject.html"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
-                    <li><a href="#"><img src="images/time-span.svg" alt="Tasks">Tasks</a></li>
+                    <li><a href="subjects.html"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
+                    <li><a href="tasks.html"><img src="images/time-span.svg" alt="Tasks">Tasks</a></li>
                 </ul>
             </nav>
         </header>
@@ -82,13 +84,13 @@
 
             <section class="tips" aria-labelledby="dailyTipTitle">
                 <img src="images/light-icon.png" alt="">
-                <div>
-                    <h2 id="dailyTipTitle">Daily Study Tip</h2>
-                    <p id="dailyTip">
-                        Start with one small task. Consistent study sessions can help you make progress over time.
-                    </p>
-                </div>
-            </section>
+                <section class="study-tip" aria-labelledby="tip-heading">
+                    <h2 id="tip-heading">Tip of the Day</h2>
+
+                    <article id="tip-container" aria-live="polite">
+                        <p>Loading a study tip...</p>
+                    </article>
+                </section>
         </main>
     </div>
 </body>

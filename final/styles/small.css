@@ -233,3 +233,36 @@ textarea,
 .subjectInforTitle p {
     text-align: center;
 }
+
+/* tips */
+
+.study-tip {
+    background-color: #f0f6ff;
+    border-left: 5px solid #2563eb;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.study-tip h2 {
+    color: #1e3a8a;
+    margin-top: 0;
+}
+
+#tip-container h3 {
+    color: #1d4ed8;
+    margin-bottom: 0.5rem;
+}
+
+#tip-container p {
+    line-height: 1.6;
+}
+
+.tip-category {
+    display: inline-block;
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}

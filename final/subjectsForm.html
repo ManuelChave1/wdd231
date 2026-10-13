@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Login Page">
     <meta name="author" content="Manuel Chave">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
 
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/subjectsForm.js" defer></script>
     <link rel="shortcut icon" href="images/studytrack.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,37 +30,40 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="#"><img src="images/home.svg" alt="Home icon">Home</a></li>
-                    <li><a href="#"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
-                    <li><a href="#"><img src="images/time-span.svg" alt="Tasks">Tasks</a></li>
+                    <li><a href="index.html"><img src="images/home.svg" alt="Home icon">Home</a></li>
+                    <li><a href="subjects.html"><img src="images/books.svg" alt="Subjects icon">Subjects</a></li>
+                    <li><a href="tasks.html"><img src="images/time-span.svg" alt="Tasks">Tasks</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <div class="mainConteinar">
-                <h2>Add New Subject</h2>
-                <form action="#" method="get" class="form">
-                    <label for="subjectName">Subject Name: </label><br>
-                    <input type="text" name="subjectName" title="subject-name" placeholder="Ex: WDD231" required><br>
-                    <label for="taskTitle">Task Title: </label><br>
-                    <input type="text" name="taskTitle" title="task-title" placeholder="Ex: Finish Final Project"
-                        required> <br>
-                    <label for="dueDate">Due Date: </label> <br>
-                    <input type="date" name="dueDate" title="due-date" required> <br>
-                    <label for="taskDescription">Task Description: </label> <br>
-                    <textarea name="taskDescription" id="taskDescription" cols="30" rows="10"></textarea> <br>
-              
-                        <input type="checkbox" name="markDone" id="markDone">
-                        <label for="markDone">Mark as Done</label>
-                    
+        <main class="main-content">
+            <section class="subject-form-container">
+                <h1 id="formTitle">Add New Subject</h1>
+                <p>Enter the information about the subject you want to study.</p>
+
+                <form id="subjectForm" class="form">
+                    <div class="form-field">
+                        <label for="subjectName">Subject Name</label>
+                        <input type="text" id="subjectName" name="subjectName" placeholder="Example: WDD231" required
+                            maxlength="100">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="subjectDescription">Description</label>
+                        <textarea id="subjectDescription" name="subjectDescription" rows="5"
+                            placeholder="What would you like to learn in this subject?" maxlength="500"></textarea>
+                    </div>
+
+                    <p id="formMessage" role="status"></p>
+
                     <div class="btns">
-                        <input type="button" value="Cancel">
-                        <input type="submit" value="Save">
+                        <a href="subjects.html" class="cancel-button">Cancel</a>
+                        <button type="submit" class="save-button">Save Subject</button>
                     </div>
                 </form>
-            </div>
-    </div>
-    </main>
+            </section>
+        </main>
+
     </div>
 </body>
 
