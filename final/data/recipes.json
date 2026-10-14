@@ -146,7 +146,7 @@
     "description": "Tasty rice cooked with tomatoes, onion, and herbs.",
     "time": 25,
     "servings": 4,
-    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "image": "./images/tomato-rice.webp",
     "ingredients": [
       "1 cup rice",
       "2 ripe tomatoes",
