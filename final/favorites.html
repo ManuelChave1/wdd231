@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manuel Chave">
+    <meta name="description"
+        content="Discover easy and delicious recipes for every day. Explore simple meals, desserts, ingredients, and step-by-step cooking instructions.">
+
+    <meta property="og:title" content="Simple Recipes">
+    <meta property="og:description"
+        content="Find easy recipes, explore different food categories, and learn how to prepare delicious meals at home.">
+
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80">
+
+    <meta property="og:url" content="">
+    <link rel="shortcut icon" href="images/pan.ico" type="image/x-icon">
+    <title>Recipes | Favorites</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/favorites.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html"> 🍲 <span>Recipes</span></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a class="active" href="favorites.html">Favorites</a>
+        </nav>
+    </header>
+
+    <main class="section page-main">
+        <p class="eyebrow">YOUR PERSONAL COLLECTION</p>
+
+        <h1>Favorite Recipes</h1>
+
+        <p class="page-intro">
+            Find all your saved recipes in one place.
+        </p>
+
+        <div id="favorites-list" class="recipe-grid">
+            <p>Loading favorites...</p>
+        </div>
+
+        <p id="empty-message" class="empty-message hidden">
+            You have no favorite recipes yet.
+            Visit the <a href="recipes.html">Recipes page</a>
+            and save a recipe you like.
+        </p>
+    </main>
+
+    <footer class="site-footer">
+        <a class="logo" href="index.html">🍲 <span>Recipes</span></a>
+        <p>Easy and practical recipes for your kitchen.</p>
+        <smal id="currentYear" class="currentyear"></smal><br>
+        <small id="lastModified" class="lastModified"></small>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Manuel Chave">
+  <meta name="description"
+    content="Discover easy and delicious recipes for every day. Explore simple meals, desserts, ingredients, and step-by-step cooking instructions.">
+
+  <meta property="og:title" content="Simple Recipes">
+  <meta property="og:description"
+    content="Find easy recipes, explore different food categories, and learn how to prepare delicious meals at home.">
+
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80">
+
+  <meta property="og:url" content="">
+  <title>Simple Recipes | Recipes</title>
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="shortcut icon" href="images/pan.ico" type="image/x-icon">
+
+  <script src="scripts/recipes.js" defer></script>
+  <script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">🍲 <span>Recipes</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a class="active" href="recipes.html">Recipes</a>
+      <a href="favorites.html">Favorites</a>
+    </nav>
+  </header>
+
+  <main class="section page-main">
+    <p class="eyebrow">COOKING INSPIRATION</p>
+    <h1 id="page-title">All Recipes</h1>
+    <p class="page-intro">Choose a recipe, check the ingredients, and start cooking.</p>
+
+    <div class="filters">
+      <label class="search-label">
+        <span class="sr-only">Search recipes</span>
+        <input id="search-input" type="search" placeholder="Search by recipe name...">
+      </label>
+      <label>
+        <span class="sr-only">Filter by category</span>
+        <select id="category-select">
+          <option value="All">All categories</option>
+          <option value="Main Course">Main Course</option>
+          <option value="Soup">Soup</option>
+          <option value="Salad">Salad</option>
+          <option value="Dessert">Dessert</option>
+          <option value="Breakfast">Breakfast</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="recipes-list" class="recipe-grid">
+      <p>Loading recipes...</p>
+    </div>
+    <p id="empty-message" class="empty-message hidden">No recipes found.</p>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="index.html">🍲 <span>Recipes</span></a>
+    <p>Easy and practical recipes for your kitchen.</p>
+    <smal id="currentYear" class="currentyear"></smal> <br>
+    <small id="lastModified" class="lastModified"></small>
+  </footer>
+</body>
+
+</html>

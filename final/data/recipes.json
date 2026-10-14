@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "name": "Grilled Chicken",
+    "category": "Main Course",
+    "description": "Seasoned grilled chicken, perfect with rice and salad.",
+    "time": 30,
+    "servings": 4,
+    "image": "./images/grilled-chicken.webp",
+    "ingredients": [
+      "4 pieces of chicken",
+      "2 garlic cloves",
+      "1 tablespoon olive oil",
+      "Juice of half a lemon",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Place the chicken in a bowl.",
+      "Add the garlic, olive oil, lemon juice, salt, and pepper.",
+      "Let it marinate for 10 minutes.",
+      "Grill the chicken until fully cooked.",
+      "Serve with rice or salad."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spaghetti Bolognese",
+    "category": "Main Course",
+    "description": "Simple pasta with tomato sauce and ground meat.",
+    "time": 25,
+    "servings": 4,
+    "image": "./images/spaghetti-bolognese.webp",
+    "ingredients": [
+      "300 g spaghetti",
+      "250 g ground meat",
+      "2 tomatoes",
+      "1 small onion",
+      "2 tablespoons oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Cook the spaghetti in salted water.",
+      "Chop the onion and tomatoes.",
+      "Heat the oil and cook the onion with the meat.",
+      "Add the tomatoes and cook for 10 minutes.",
+      "Mix the sauce with the spaghetti and serve."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vegetable Soup",
+    "category": "Soup",
+    "description": "A comforting soup made with everyday vegetables.",
+    "time": 20,
+    "servings": 3,
+    "image": "./images/vegetable-soup.webp",
+    "ingredients": [
+      "2 carrots",
+      "2 potatoes",
+      "1 onion",
+      "1 liter of water",
+      "1 tablespoon oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Wash and cut the vegetables.",
+      "Put the vegetables and water in a pot.",
+      "Add the oil and salt.",
+      "Boil until the vegetables are soft.",
+      "Blend the soup if you prefer, then serve."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Easy Pancakes",
+    "category": "Breakfast",
+    "description": "Soft pancakes for a special breakfast.",
+    "time": 15,
+    "servings": 3,
+    "image": "./images/pancakes.webp",
+    "ingredients": [
+      "1 cup flour",
+      "1 egg",
+      "3/4 cup milk",
+      "1 tablespoon sugar",
+      "1 teaspoon baking powder"
+    ],
+    "steps": [
+      "Mix the flour, sugar, and baking powder.",
+      "Add the egg and milk and mix until smooth.",
+      "Heat a lightly greased frying pan.",
+      "Pour small amounts of batter into the pan.",
+      "Flip when bubbles appear and cook the other side."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tuna Salad",
+    "category": "Salad",
+    "description": "A fresh, quick salad for a light meal.",
+    "time": 10,
+    "servings": 2,
+    "image": "./images/tuna-salad.webp",
+    "ingredients": [
+      "1 can of tuna",
+      "1 tomato",
+      "1 cucumber",
+      "Lettuce leaves",
+      "1 tablespoon olive oil",
+      "Lemon juice"
+    ],
+    "steps": [
+      "Wash the vegetables well.",
+      "Cut the tomato and cucumber.",
+      "Place the lettuce in a bowl.",
+      "Add the tuna and vegetables.",
+      "Season with olive oil and lemon juice, mix, and serve."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Mousse",
+    "category": "Dessert",
+    "description": "A creamy dessert for chocolate lovers.",
+    "time": 20,
+    "servings": 4,
+    "image": "./images/chocolate-mousse.webp",
+    "ingredients": [
+      "200 g chocolate",
+      "3 eggs",
+      "2 tablespoons sugar",
+      "1 tablespoon butter"
+    ],
+    "steps": [
+      "Melt the chocolate with the butter and let it cool slightly.",
+      "Separate the egg yolks from the whites.",
+      "Mix the yolks with the chocolate.",
+      "Beat the egg whites until stiff and add the sugar.",
+      "Fold the egg whites into the chocolate and refrigerate for at least 2 hours."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Tomato Rice",
+    "category": "Main Course",
+    "description": "Tasty rice cooked with tomatoes, onion, and herbs.",
+    "time": 25,
+    "servings": 4,
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "ingredients": [
+      "1 cup rice",
+      "2 ripe tomatoes",
+      "1/2 onion",
+      "2 cups water",
+      "1 tablespoon oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Chop the onion and tomatoes.",
+      "Heat the oil and cook the onion.",
+      "Add the tomatoes and cook for a few minutes.",
+      "Add the rice, water, and salt.",
+      "Cover and cook on low heat until the rice is tender."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Fruit Salad",
+    "category": "Dessert",
+    "description": "A fresh and colorful dessert made with different fruits.",
+    "time": 10,
+    "servings": 4,
+    "image": "./images/fruit-salad.webp",
+    "ingredients": [
+      "1 banana",
+      "1 apple",
+      "1 orange",
+      "1 slice of pineapple",
+      "Juice of half an orange"
+    ],
+    "steps": [
+      "Wash the fruit.",
+      "Peel the banana and orange.",
+      "Cut all the fruit into small pieces.",
+      "Put the fruit in a bowl.",
+      "Add the orange juice, mix, and serve chilled."
+    ]
+  }
+]

@@ -1,43 +1,65 @@
-@media only screen and (min-width: 630px) {
-    .mainContent {
-        display: grid;
-        grid-template-columns: 300px 1fr;
-        grid-template-areas:
-            "aside main"
-        ;
-        height: 100vh;
-        width: 100vw;
+@media screen and (max-width: 600px) {
+    .site-header {
+        flex-direction: column;
+        padding: 15px 5%;
     }
 
-    .asideContent {
-        grid-area: aside;
-        margin: 0px;
-        background-color: #6b6bf8;
-        color: #f3f4f6;
-
-    }
-
-    .asideContent h2 {
-        color: #f3f4f6;
-    }
-
-    .universityLogo {
-        margin: 0px;
-    }
-
-    .universityInform {
-        display: block;
-    }
-
-    .login-information {
-        display: grid;
+    nav {
         justify-content: center;
-        align-items: center;
+        gap: 16px;
     }
 
-    .login {
-        grid-area: main;
+    .hero {
+        grid-template-columns: 1fr;
     }
 
+    .hero img {
+        min-height: 230px;
+        max-height: 280px;
+        grid-row: 1;
+    }
 
+    .hero-content {
+        padding: 30px 7%;
+    }
+
+    .section {
+        padding: 35px 5%;
+    }
+
+    .section-heading {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .recipe-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .recipe-card img {
+        height: 220px;
+    }
+
+    .filters,
+    .details-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .page-main h1 {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .recipe-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .hero-content {
+        padding: 35px 8%;
+    }
+
+    .details-layout {
+        grid-template-columns: 1fr;
+    }
 }
