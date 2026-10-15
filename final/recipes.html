@@ -8,15 +8,14 @@
   <meta name="description"
     content="Discover easy and delicious recipes for every day. Explore simple meals, desserts, ingredients, and step-by-step cooking instructions.">
 
-  <meta property="og:title" content="Simple Recipes">
+  <meta property="og:title" content="Recipes">
   <meta property="og:description"
     content="Find easy recipes, explore different food categories, and learn how to prepare delicious meals at home.">
 
   <meta property="og:image"
-    content="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80">
+    content="https://raw.githubusercontent.com/ManuelChave1/wdd231/refs/heads/main/final/images/vegetable-soup.webp">
 
-  <meta property="og:url" content="">
-  <title>Simple Recipes | Recipes</title>
+  <meta property="og:url" content="https://manuelchave1.github.io/wdd231/final/index.html">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/large.css">
   <link rel="stylesheet" href="styles/normalize.css">
@@ -24,12 +23,16 @@
 
   <script src="scripts/recipes.js" defer></script>
   <script src="scripts/dates.js" defer></script>
+  <script src="scripts/navigation.js" defer></script>
+  <title>Recipes | Recipes</title>
+
 </head>
 
 <body>
   <header class="site-header">
     <a class="logo" href="index.html">🍲 <span>Recipes</span></a>
-    <nav>
+    <button class="btn-humburguer" id="btn-humburguer"></button>
+    <nav class="navBar" id="navBar">
       <a href="index.html">Home</a>
       <a class="active" href="recipes.html">Recipes</a>
       <a href="favorites.html">Favorites</a>
@@ -64,6 +67,26 @@
     </div>
     <p id="empty-message" class="empty-message hidden">No recipes found.</p>
   </main>
+  <dialog id="recipe-dialog">
+    <div class="dialog-content">
+      <button type="button" id="close-dialog" class="close-dialog" aria-label="Close recipe details">
+        &times;
+      </button>
+
+      <img id="dialog-image" src="" alt="">
+
+      <h2 id="dialog-title"></h2>
+
+      <span id="dialog-category" class="category"></span>
+
+      <p id="dialog-description"></p>
+
+      <div class="recipe-meta">
+        <span id="dialog-time"></span>
+        <span id="dialog-servings"></span>
+      </div>
+    </div>
+  </dialog>
 
   <footer class="site-footer">
     <a class="logo" href="index.html">🍲 <span>Recipes</span></a>

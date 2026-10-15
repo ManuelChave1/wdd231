@@ -87,12 +87,15 @@ function showRecipes() {
     const cardActions = document.createElement("div");
     cardActions.classList.add("card-actions");
 
-    const link = document.createElement("a");
-    link.classList.add("small-link");
-    link.href = `details.html?id=${recipe.id}`;
-    link.textContent = "View recipe →";
+    const viewButton = document.createElement("button");
+    viewButton.classList.add("small-link");
+    viewButton.textContent = "View recipe →";
 
-    cardActions.appendChild(link);
+    viewButton.addEventListener("click", () => {
+      openRecipeDialog(recipe);
+    });
+
+    cardActions.appendChild(viewButton);
 
     const favoriteButton = document.createElement("button");
     favoriteButton.classList.add("favorite-button");
@@ -147,3 +150,29 @@ searchInput.addEventListener("input", showRecipes);
 categorySelect.addEventListener("change", showRecipes);
 
 loadRecipes();
+
+
+const recipeDialog = document.querySelector("#recipe-dialog");
+const closeDialogButton = document.querySelector("#close-dialog");
+
+function openRecipeDialog(recipe) {
+  document.querySelector("#dialog-image").src = recipe.image;
+  document.querySelector("#dialog-image").alt = recipe.name;
+
+  document.querySelector("#dialog-title").textContent = recipe.name;
+  document.querySelector("#dialog-category").textContent = recipe.category;
+  document.querySelector("#dialog-description").textContent =
+    recipe.description;
+
+  document.querySelector("#dialog-time").textContent =
+    `◷ ${recipe.time} min`;
+
+  document.querySelector("#dialog-servings").textContent =
+    `♟ ${recipe.servings} servings`;
+
+  recipeDialog.showModal();
+}
+
+closeDialogButton.addEventListener("click", () => {
+  recipeDialog.close();
+});

@@ -185,5 +185,179 @@
       "Put the fruit in a bowl.",
       "Add the orange juice, mix, and serve chilled."
     ]
+  },
+  {
+    "id": 9,
+    "name": "French Toast",
+    "category": "Breakfast",
+    "description": "Golden slices of bread dipped in egg and milk, perfect for breakfast.",
+    "time": 15,
+    "servings": 2,
+    "image": "./images/french-toast.webp",
+    "ingredients": [
+      "4 slices of bread",
+      "2 eggs",
+      "1/4 cup milk",
+      "1 tablespoon sugar",
+      "1/2 teaspoon cinnamon",
+      "1 tablespoon butter"
+    ],
+    "steps": [
+      "Beat the eggs with the milk, sugar, and cinnamon.",
+      "Dip each slice of bread into the egg mixture.",
+      "Heat the butter in a frying pan.",
+      "Cook the bread until golden on both sides.",
+      "Serve warm with fruit or honey."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Chicken Fried Rice",
+    "category": "Main Course",
+    "description": "A quick and tasty rice dish with chicken, vegetables, and simple seasoning.",
+    "time": 25,
+    "servings": 3,
+    "image": "./images/chicken-fried-rice.webp",
+    "ingredients": [
+      "2 cups cooked rice",
+      "200 g chicken breast",
+      "1 carrot",
+      "1/2 onion",
+      "1 egg",
+      "2 tablespoons oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Cut the chicken into small pieces.",
+      "Chop the carrot and onion.",
+      "Heat one tablespoon of oil and cook the chicken thoroughly.",
+      "Add the vegetables and cook until tender.",
+      "In another part of the pan, scramble the egg.",
+      "Add the cooked rice and remaining oil, mix everything, season, and serve."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Creamy Pumpkin Soup",
+    "category": "Soup",
+    "description": "A smooth and comforting pumpkin soup for a simple lunch or dinner.",
+    "time": 30,
+    "servings": 4,
+    "image": "./images/pumpkin-soup.webp",
+    "ingredients": [
+      "500 g pumpkin",
+      "1 potato",
+      "1 small onion",
+      "750 ml water or vegetable stock",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Peel and cut the pumpkin and potato into small pieces.",
+      "Chop the onion.",
+      "Heat the olive oil in a pot and cook the onion until soft.",
+      "Add the pumpkin, potato, and water or stock.",
+      "Simmer until the vegetables are tender.",
+      "Blend until smooth, season to taste, and serve warm."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Avocado Tomato Salad",
+    "category": "Salad",
+    "description": "A fresh salad combining creamy avocado, juicy tomatoes, and lemon dressing.",
+    "time": 10,
+    "servings": 2,
+    "image": "./images/avocado-tomato-salad.webp",
+    "ingredients": [
+      "1 ripe avocado",
+      "2 tomatoes",
+      "1/2 small onion",
+      "1 tablespoon olive oil",
+      "Juice of half a lemon",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Wash the tomatoes and onion.",
+      "Cut the tomatoes and avocado into bite-sized pieces.",
+      "Slice the onion thinly.",
+      "Place everything in a bowl.",
+      "Add the olive oil, lemon juice, salt, and pepper.",
+      "Mix gently and serve fresh."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Banana Oat Pancakes",
+    "category": "Breakfast",
+    "description": "Easy banana pancakes made with oats for a delicious breakfast.",
+    "time": 15,
+    "servings": 2,
+    "image": "./images/banana-oat-pancakes.webp",
+    "ingredients": [
+      "1 ripe banana",
+      "1 egg",
+      "1/2 cup rolled oats",
+      "1/4 cup milk",
+      "1/2 teaspoon baking powder",
+      "1 teaspoon oil"
+    ],
+    "steps": [
+      "Mash the banana in a bowl.",
+      "Add the egg, oats, milk, and baking powder.",
+      "Mix until combined and let the batter rest for 2 minutes.",
+      "Heat the oil in a frying pan.",
+      "Pour small portions of batter into the pan.",
+      "Cook on both sides until golden and serve warm."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Baked Fish with Lemon",
+    "category": "Main Course",
+    "description": "Tender baked fish seasoned with lemon, garlic, and herbs.",
+    "time": 35,
+    "servings": 4,
+    "image": "./images/baked-fish.webp",
+    "ingredients": [
+      "4 fish fillets",
+      "2 garlic cloves",
+      "Juice of 1 lemon",
+      "2 tablespoons olive oil",
+      "1 teaspoon dried herbs",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat the oven to 200°C.",
+      "Place the fish fillets in a baking dish.",
+      "Mix the garlic, lemon juice, olive oil, herbs, salt, and pepper.",
+      "Pour the seasoning mixture over the fish.",
+      "Bake for 20–25 minutes, or until the fish is fully cooked.",
+      "Serve with rice or vegetables."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Strawberry Yogurt Parfait",
+    "category": "Dessert",
+    "description": "A simple layered dessert with creamy yogurt, fresh strawberries, and crunchy granola.",
+    "time": 10,
+    "servings": 2,
+    "image": "./images/strawberry-yogurt-parfait.webp",
+    "ingredients": [
+      "1 cup plain yogurt",
+      "1 cup fresh strawberries",
+      "1/2 cup granola",
+      "1 tablespoon honey",
+      "A few mint leaves (optional)"
+    ],
+    "steps": [
+      "Wash and slice the strawberries.",
+      "Stir the honey into the yogurt.",
+      "Add a layer of yogurt to each serving glass.",
+      "Add a layer of strawberries and granola.",
+      "Repeat the layers until the glasses are filled.",
+      "Garnish with mint leaves if desired and serve."
+    ]
   }
 ]
